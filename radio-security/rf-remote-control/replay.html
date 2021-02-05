@@ -1,0 +1,1934 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>3.5.1 使用YARD Stick One重放信号 · 物联网安全百科</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Yaseng、独抒、BG7YWL">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-image-captions/image-captions.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../lora/introduction.html" />
+    
+    
+    <link rel="prev" href="introduction.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../../_assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../_assets/images/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../../_assets/images/favicon.ico'>
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://iot-security.wiki" target="_blank" class="custom-link">物联网安全百科</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../basics/">
+            
+                <a href="../../basics/">
+            
+                    
+                    1. 基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../basics/iot.html">
+            
+                <a href="../../basics/iot.html">
+            
+                    
+                    1.1 物联网介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../hardware-security/">
+            
+                <a href="../../hardware-security/">
+            
+                    
+                    2. 硬件安全
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../hardware-security/introduction.html">
+            
+                <a href="../../hardware-security/introduction.html">
+            
+                    
+                    2.1 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../hardware-security/hardware/">
+            
+                <a href="../../hardware-security/hardware/">
+            
+                    
+                    2.2 硬件分析
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../../hardware-security/hardware/preliminary.html">
+            
+                <a href="../../hardware-security/hardware/preliminary.html">
+            
+                    
+                    2.2.1 初探
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../../hardware-security/hardware/circuit.html">
+            
+                <a href="../../hardware-security/hardware/circuit.html">
+            
+                    
+                    2.2.2 电路分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../hardware-security/firmware/">
+            
+                <a href="../../hardware-security/firmware/">
+            
+                    
+                    2.3 固件分析
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="../../hardware-security/firmware/extraction.html">
+            
+                <a href="../../hardware-security/firmware/extraction.html">
+            
+                    
+                    2.3.1 固件提取
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="../../hardware-security/firmware/reverse.html">
+            
+                <a href="../../hardware-security/firmware/reverse.html">
+            
+                    
+                    2.3.2 固件逆向
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../hardware-security/protocol/">
+            
+                <a href="../../hardware-security/protocol/">
+            
+                    
+                    2.4 协议分析
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1" data-path="../../hardware-security/protocol/network.html">
+            
+                <a href="../../hardware-security/protocol/network.html">
+            
+                    
+                    2.4.1 网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.2" data-path="../../hardware-security/protocol/USB.html">
+            
+                <a href="../../hardware-security/protocol/USB.html">
+            
+                    
+                    2.4.2 USB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.3" data-path="../../hardware-security/protocol/hardware.html">
+            
+                <a href="../../hardware-security/protocol/hardware.html">
+            
+                    
+                    2.4.3 硬件通信协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.4" data-path="../../hardware-security/protocol/others.html">
+            
+                <a href="../../hardware-security/protocol/others.html">
+            
+                    
+                    2.4.4 其他
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../hardware-security/debug/">
+            
+                <a href="../../hardware-security/debug/">
+            
+                    
+                    2.5 硬件调试
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.5.1" data-path="../../hardware-security/debug/serial-port.html">
+            
+                <a href="../../hardware-security/debug/serial-port.html">
+            
+                    
+                    2.5.1 串口调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.2" data-path="../../hardware-security/debug/jtag.html">
+            
+                <a href="../../hardware-security/debug/jtag.html">
+            
+                    
+                    2.5.2 JTAG调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.3" data-path="../../hardware-security/debug/jtagulator.html">
+            
+                <a href="../../hardware-security/debug/jtagulator.html">
+            
+                    
+                    2.5.3 JTAGulator调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.4" data-path="../../hardware-security/debug/remote.html">
+            
+                <a href="../../hardware-security/debug/remote.html">
+            
+                    
+                    2.5.4 远程调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../hardware-security/modification/">
+            
+                <a href="../../hardware-security/modification/">
+            
+                    
+                    2.6 硬件修改
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.6.1" data-path="../../hardware-security/modification/hardware.html">
+            
+                <a href="../../hardware-security/modification/hardware.html">
+            
+                    
+                    2.6.1 硬改
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6.2" data-path="../../hardware-security/modification/firmware.html">
+            
+                <a href="../../hardware-security/modification/firmware.html">
+            
+                    
+                    2.6.2 软改
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../../hardware-security/vulnerability/">
+            
+                <a href="../../hardware-security/vulnerability/">
+            
+                    
+                    2.7 漏洞挖掘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../../hardware-security/vulnerability/">
+            
+                <a href="../../hardware-security/vulnerability/">
+            
+                    
+                    2.8 存储安全
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../../hardware-security/protection/">
+            
+                <a href="../../hardware-security/protection/">
+            
+                    
+                    2.9 安全防护
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../../hardware-security/cases/">
+            
+                <a href="../../hardware-security/cases/">
+            
+                    
+                    2.10 综合案例
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.10.1" data-path="../../hardware-security/cases/smart-hard-drive.html">
+            
+                <a href="../../hardware-security/cases/smart-hard-drive.html">
+            
+                    
+                    2.10.1 智能硬盘漏洞
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10.2" data-path="../../hardware-security/cases/router.html">
+            
+                <a href="../../hardware-security/cases/router.html">
+            
+                    
+                    2.10.2 某路由器漏洞
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    3. 无线电安全
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    3.1 无线电概述
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="../introduction/introduction.html">
+            
+                <a href="../introduction/introduction.html">
+            
+                    
+                    3.1.1 无线安全的由来
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="../introduction/status.html">
+            
+                <a href="../introduction/status.html">
+            
+                    
+                    3.1.2 无线安全的现状
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="../introduction/attack-and-defense.html">
+            
+                <a href="../introduction/attack-and-defense.html">
+            
+                    
+                    3.1.3 无线安全攻防思路
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../wifi/standard.html">
+            
+                <a href="../wifi/standard.html">
+            
+                    
+                    3.2 Wi-Fi 安全
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="../wifi/standard.html">
+            
+                <a href="../wifi/standard.html">
+            
+                    
+                    3.2.1 Wi-Fi与802.11标准
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    3.2.2 针对802.11渗透测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    3.2.3 无线Wi-Fi钓鱼攻击
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    3.2.4 Wi-Fi安全的其他应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../bluetooth/introduction.html">
+            
+                <a href="../bluetooth/introduction.html">
+            
+                    
+                    3.3 Bluetooth安全
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="../bluetooth/introduction.html">
+            
+                <a href="../bluetooth/introduction.html">
+            
+                    
+                    3.3.1 蓝牙技术概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="../bluetooth/classic.html">
+            
+                <a href="../bluetooth/classic.html">
+            
+                    
+                    3.3.2 经典蓝牙
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.3" data-path="../bluetooth/ble.html">
+            
+                <a href="../bluetooth/ble.html">
+            
+                    
+                    3.3.3 BLE低功耗蓝牙
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    3.4 RFID 智能卡安全
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    3.4.1 Mifare Classic智能卡概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    3.4.2 Mifare Classic智能卡安全分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="introduction.html">
+            
+                <a href="introduction.html">
+            
+                    
+                    3.5 无线遥控系统安全
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.5.1" data-path="replay.html">
+            
+                <a href="replay.html">
+            
+                    
+                    3.5.1 使用YARD Stick One重放信号
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../lora/introduction.html">
+            
+                <a href="../lora/introduction.html">
+            
+                    
+                    3.6 LoRa技术
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.6.1" data-path="../lora/introduction.html">
+            
+                <a href="../lora/introduction.html">
+            
+                    
+                    3.6.1 LoRa简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.2" data-path="../lora/example.html">
+            
+                <a href="../lora/example.html">
+            
+                    
+                    3.6.2 LoRa通信
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../zigbee/introduction.html">
+            
+                <a href="../zigbee/introduction.html">
+            
+                    
+                    3.7 ZigBee技术
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.7.1" data-path="../zigbee/introduction.html">
+            
+                <a href="../zigbee/introduction.html">
+            
+                    
+                    3.7.1 ZigBee简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7.2" data-path="../zigbee/killbee.html">
+            
+                <a href="../zigbee/killbee.html">
+            
+                    
+                    3.7.2 KillerBee攻击框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../chip-security/">
+            
+                <a href="../../chip-security/">
+            
+                    
+                    4. 芯片安全
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../hardware-security/introduction.html">
+            
+                <a href="../../hardware-security/introduction.html">
+            
+                    
+                    4.1 芯片介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../hardware-security/introduction.html">
+            
+                <a href="../../hardware-security/introduction.html">
+            
+                    
+                    4.1 芯片攻击
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../../hardware-security/introduction.html">
+            
+                <a href="../../hardware-security/introduction.html">
+            
+                    
+                    4.1 非侵入式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="../../hardware-security/introduction.html">
+            
+                <a href="../../hardware-security/introduction.html">
+            
+                    
+                    4.1 侵入式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.3" data-path="../../hardware-security/introduction.html">
+            
+                <a href="../../hardware-security/introduction.html">
+            
+                    
+                    4.1 半侵入式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../hardware-security/introduction.html">
+            
+                <a href="../../hardware-security/introduction.html">
+            
+                    
+                    4.2 侧信道攻击
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../../hardware-security/introduction.html">
+            
+                <a href="../../hardware-security/introduction.html">
+            
+                    
+                    4.3 故障攻击
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../lock-security/">
+            
+                <a href="../../lock-security/">
+            
+                    
+                    5. 锁具安全
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../lock-security/lock/">
+            
+                <a href="../../lock-security/lock/">
+            
+                    
+                    5.1 锁具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="../../lock-security/lock/introduction.html">
+            
+                <a href="../../lock-security/lock/introduction.html">
+            
+                    
+                    5.1.1 锁具的介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2" data-path="../../lock-security/lock/future.html">
+            
+                <a href="../../lock-security/lock/future.html">
+            
+                    
+                    5.1.2 未来趋势
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.3" data-path="../../lock-security/lock/attack-and-defense.html">
+            
+                <a href="../../lock-security/lock/attack-and-defense.html">
+            
+                    
+                    5.1.3 锁具的攻防
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../lock-security/mechanical-lock/">
+            
+                <a href="../../lock-security/mechanical-lock/">
+            
+                    
+                    5.2 机械锁具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="../../lock-security/mechanical-lock/crack.html">
+            
+                <a href="../../lock-security/mechanical-lock/crack.html">
+            
+                    
+                    5.2.1 传统锁的破解
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" data-path="../../lock-security/mechanical-lock/">
+            
+                <a href="../../lock-security/mechanical-lock/">
+            
+                    
+                    5.2.2 A级锁
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.3" data-path="../../lock-security/mechanical-lock/">
+            
+                <a href="../../lock-security/mechanical-lock/">
+            
+                    
+                    5.2.3 B级锁
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.4" data-path="../../lock-security/mechanical-lock/">
+            
+                <a href="../../lock-security/mechanical-lock/">
+            
+                    
+                    5.2.4 超B级锁
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.5" data-path="../../lock-security/mechanical-lock/">
+            
+                <a href="../../lock-security/mechanical-lock/">
+            
+                    
+                    5.2.5 保险柜
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.6" data-path="../../lock-security/mechanical-lock/">
+            
+                <a href="../../lock-security/mechanical-lock/">
+            
+                    
+                    5.2.6 更多思考
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../lock-security/smart-lock/">
+            
+                <a href="../../lock-security/smart-lock/">
+            
+                    
+                    5.3 智能锁
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.3.1" data-path="../../lock-security/smart-lock/crack.html">
+            
+                <a href="../../lock-security/smart-lock/crack.html">
+            
+                    
+                    5.3.1 智能锁的破解
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    5.4 指纹锁
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    5.5 蓝牙锁
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    5.6 WiFi锁
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    5.7 智能保险柜
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    5.8 声波锁
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../../lock-security/security-defense/">
+            
+                <a href="../../lock-security/security-defense/">
+            
+                    
+                    5.9 安全防御
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../physicals-security/">
+            
+                <a href="../../physicals-security/">
+            
+                    
+                    6. 物理安全
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../hardware-security/introduction.html">
+            
+                <a href="../../hardware-security/introduction.html">
+            
+                    
+                    6.1 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../hardware-security/introduction.html">
+            
+                <a href="../../hardware-security/introduction.html">
+            
+                    
+                    6.2 力学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../physicals-security/optics.html">
+            
+                <a href="../../physicals-security/optics.html">
+            
+                    
+                    6.3 光学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../../hardware-security/introduction.html">
+            
+                <a href="../../hardware-security/introduction.html">
+            
+                    
+                    6.4 声学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../../hardware-security/introduction.html">
+            
+                <a href="../../hardware-security/introduction.html">
+            
+                    
+                    6.5 热力学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../../hardware-security/introduction.html">
+            
+                <a href="../../hardware-security/introduction.html">
+            
+                    
+                    6.6 电磁学
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="../../hardware-security/introduction.html">
+            
+                <a href="../../hardware-security/introduction.html">
+            
+                    
+                    6.7 其他
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../iot-ctf/">
+            
+                <a href="../../iot-ctf/">
+            
+                    
+                    7. Iot CTF
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../iot-ctf/lock-ctf/">
+            
+                <a href="../../iot-ctf/lock-ctf/">
+            
+                    
+                    7.1 智能锁CTF
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1.1" data-path="../../iot-ctf/lock-ctf/new-orleans.html">
+            
+                <a href="../../iot-ctf/lock-ctf/new-orleans.html">
+            
+                    
+                    7.1.1 New Orleans
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.1.2" data-path="../../iot-ctf/lock-ctf/sydney.html">
+            
+                <a href="../../iot-ctf/lock-ctf/sydney.html">
+            
+                    
+                    7.1.2 Sydney
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.1.3" data-path="../../iot-ctf/lock-ctf/hanoi.html">
+            
+                <a href="../../iot-ctf/lock-ctf/hanoi.html">
+            
+                    
+                    7.1.3 Hanoi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.1.4" data-path="../../iot-ctf/lock-ctf/cusco.html">
+            
+                <a href="../../iot-ctf/lock-ctf/cusco.html">
+            
+                    
+                    7.1.4 Cusco
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.1.5" data-path="../../iot-ctf/lock-ctf/reykjavik.html">
+            
+                <a href="../../iot-ctf/lock-ctf/reykjavik.html">
+            
+                    
+                    7.1.5 Reykjavik
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../appendix/">
+            
+                <a href="../../appendix/">
+            
+                    
+                    附录
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../../appendix/related-links.html">
+            
+                <a href="../../appendix/related-links.html">
+            
+                    
+                    附录一: 相关链接
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../../appendix/reference.html">
+            
+                <a href="../../appendix/reference.html">
+            
+                    
+                    附录二: 参考文献
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../../appendix/changelog.html">
+            
+                <a href="../../appendix/changelog.html">
+            
+                    
+                    附录三: 修订记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >3.5.1 使用YARD Stick One重放信号</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x4F7F;&#x7528;-yard-stick-one-&#x8FDB;&#x884C;&#x91CD;&#x653E;&#x4FE1;&#x53F7;">&#x4F7F;&#x7528; YARD Stick One &#x8FDB;&#x884C;&#x91CD;&#x653E;&#x4FE1;&#x53F7;</h1>
+<p><a href="https://greatscottgadgets.com/yardstickone/" target="_blank">YARD Stick One</a> &#x662F;&#x4E00;&#x6B3E;&#x4F4E;&#x4E8E; 1 GHz &#x4EE5;&#x4E0B;&#x7684; USB &#x65E0;&#x7EBF;&#x6536;&#x53D1;&#x5668;&#xFF0C;&#x57FA;&#x4E8E;&#x5FB7;&#x5DDE;&#x4EEA;&#x5668;&#xFF08;TI&#xFF09;CC1111&#x3002;&#x5B83;&#x4E0E; <a href="http://ossmann.blogspot.com/2010/03/16-pocket-spectrum-analyzer.html" target="_blank">IM-Me</a> &#x76F8;&#x540C;&#x7684;&#x65E0;&#x7EBF;&#x7535;&#x7535;&#x8DEF;&#x3002;&#x73B0;&#x5728;&#xFF0C;&#x5F53;&#x4F60;&#x901A;&#x8FC7; USB &#x5C06; YARD Stick One &#x8FDE;&#x63A5;&#x5230;&#x8BA1;&#x7B97;&#x673A;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x8F7B;&#x677E;&#x5B9A;&#x5236; IM-Me &#x56FA;&#x4EF6;&#x7684;&#x65E0;&#x7EBF;&#x7535;&#x529F;&#x80FD;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x5C06; YARD Stick One &#x7528;&#x4E8E;&#x8FDB;&#x884C;&#x5404;&#x79CD;&#x9065;&#x63A7;&#x4FE1;&#x53F7;&#x7684;&#x91CD;&#x653E;&#xFF0C;&#x6C7D;&#x8F66;&#x9065;&#x63A7;&#x9501;&#x7684;&#x5B89;&#x5168;&#x7814;&#x7A76;&#x7B49;&#x3002;&#x4E3B;&#x8981;&#x6027;&#x80FD;&#x89C4;&#x683C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ul>
+<li>&#x534A;&#x53CC;&#x5DE5;&#x53D1;&#x9001;&#x548C;&#x63A5;&#x6536;</li>
+<li>&#x5B98;&#x65B9;&#x5DE5;&#x4F5C;&#x9891;&#x7387;&#xFF1A;300-348 MHz&#xFF0C;391-464 MHz &#x548C; 782-928 MHz</li>
+<li>&#x975E;&#x5B98;&#x65B9;&#x5DE5;&#x4F5C;&#x9891;&#x7387;&#xFF1A;281-361 MHz&#xFF0C;378-481 MHz &#x548C; 749-962 MHz</li>
+<li>&#x8C03;&#x5236;&#x65B9;&#x5F0F;&#xFF1A;ASK&#xFF0C;OOK&#xFF0C;GFSK&#xFF0C;2-FSK&#xFF0C;4-FSK&#xFF0C;MSK</li>
+<li>&#x6570;&#x636E;&#x901F;&#x7387;&#x9AD8;&#x8FBE; 500 kbps</li>
+<li>&#x5168;&#x901F; USB 2.0</li>
+</ul>
+<p>YARD Stick One &#x5E26;&#x6709; <a href="https://github.com/atlas0fd00m/rfcat" target="_blank">RfCat</a> &#x5B89;&#x88C5;&#x7684;&#x56FA;&#x4EF6;&#xFF0C;&#x7531; <a href="https://twitter.com/at1as" target="_blank">atlas</a> &#x63D0;&#x4F9B;&#x3002;RfCat &#x5141;&#x8BB8;&#x4ECE;&#x4EA4;&#x4E92;&#x5F0F; Python Shell &#x6216;&#x8BA1;&#x7B97;&#x673A;&#x4E0A;&#x8FD0;&#x884C;&#x7684;&#x81EA;&#x5DF1;&#x7684;&#x7A0B;&#x5E8F;&#x63A7;&#x5236;&#x65E0;&#x7EBF;&#x6536;&#x53D1;&#x5668;&#x3002;YARD Stick One &#x8FD8;&#x5B89;&#x88C5;&#x4E86;<a href="https://github.com/AdamLaurie/CC-Bootloader" target="_blank">CC Bootloader</a>&#xFF0C;&#x56E0;&#x6B64;&#x4F60;&#x53EF;&#x4EE5;&#x5347;&#x7EA7; RFCat &#x6216;&#x5B89;&#x88C5;&#x81EA;&#x5DF1;&#x7684;&#x56FA;&#x4EF6;&#xFF0C;&#x800C;&#x65E0;&#x9700;&#x4EFB;&#x4F55;&#x5176;&#x4ED6;&#x7F16;&#x7A0B;&#x786C;&#x4EF6;&#x3002;&#x4E0D;&#x5305;&#x62EC;&#x5929;&#x7EBF;&#x3002;&#x5EFA;&#x8BAE;&#x5C06;<a href="https://www.greatscottgadgets.com/ant500/" target="_blank">ANT500</a> &#x7528;&#x4F5C; YARD Stick One &#x7684;&#x542F;&#x52A8;&#x5929;&#x7EBF;&#x3002;</p>
+<p>YARD Stick One &#x6700;&#x521D;&#x57FA;&#x4E8E; <a href="https://www.greatscottgadgets.com/tc14badge/" target="_blank">ToorCon 14 Badge</a> &#x8BBE;&#x8BA1;&#xFF0C;&#x5177;&#x6709; CC1111 &#x5E73;&#x53F0;&#x4EE5;&#x524D;&#x6CA1;&#x6709;&#x7684;&#x51E0;&#x4E2A;&#x529F;&#x80FD;&#xFF1A;</p>
+<ul>
+<li><p>SMA &#x6BCD;&#x5929;&#x7EBF;&#x8FDE;&#x63A5;&#x5668;&#xFF0C;&#x7528;&#x4E8E; <a href="https://www.greatscottgadgets.com/ant500/" target="_blank">ANT500 </a>&#x7B49;&#x5916;&#x90E8;&#x5929;&#x7EBF;</p>
+</li>
+<li><p>&#x63A5;&#x6536;&#x653E;&#x5927;&#x5668;&#xFF0C;&#x63D0;&#x9AD8;&#x7075;&#x654F;&#x5EA6;</p>
+</li>
+<li><p>&#x53D1;&#x5C04;&#x653E;&#x5927;&#x5668;&#xFF0C;&#x8F93;&#x51FA;&#x529F;&#x7387;&#x66F4;&#x9AD8;</p>
+</li>
+<li><p>&#x5728;&#x6574;&#x4E2A;&#x5DE5;&#x4F5C;&#x9891;&#x7387;&#x8303;&#x56F4;&#x5185;&#x5747;&#x5177;&#x6709;&#x5F3A;&#x5927;&#x7684; RF &#x6027;&#x80FD;</p>
+</li>
+<li><p>&#x4F4E;&#x901A;&#x6EE4;&#x6CE2;&#x5668;&#xFF0C;&#x7528;&#x4E8E;&#x5728; 800 &#x548C; 900 MHz &#x9891;&#x6BB5;&#x5DE5;&#x4F5C;&#x65F6;&#x6D88;&#x9664;&#x8C10;&#x6CE2;</p>
+</li>
+<li><p>&#x5929;&#x7EBF;&#x7AEF;&#x53E3;&#x7535;&#x6E90;&#x63A7;&#x5236;&#xFF0C;&#x53EF;&#x517C;&#x5BB9;&#x4E3A; <a href="https://www.greatscottgadgets.com/hackrf/" target="_blank">HackRF One </a>&#x8BBE;&#x8BA1;&#x7684;&#x5929;&#x7EBF;&#x7AEF;&#x53E3;&#x9644;&#x4EF6;</p>
+</li>
+<li><p>&#x517C;&#x5BB9; <a href="http://goodfet.sourceforge.net/" target="_blank">GoodFET</a> &#x7684;&#x6269;&#x5C55;&#x548C;&#x7F16;&#x7A0B;&#x5934;</p>
+</li>
+<li><p>&#x517C;&#x5BB9; <a href="http://ossmann.blogspot.com/2012/10/programming-pink-pagers-in-style.html" target="_blank">GIMME</a> &#x7684;&#x7F16;&#x7A0B;&#x6D4B;&#x8BD5;&#x70B9;</p>
+</li>
+</ul>
+<p>&#x6709;&#x5173;&#x6587;&#x6863;&#x548C;&#x5F00;&#x6E90;&#x8BBE;&#x8BA1;&#x6587;&#x4EF6;&#xFF0C;&#x8BF7;&#x8BBF;&#x95EE;<a href="https://github.com/greatscottgadgets/yardstick/wiki" target="_blank">&#x9879;&#x76EE;Wiki</a>&#x3002;</p>
+<h2 id="&#x642D;&#x5EFA;&#x73AF;&#x5883;">&#x642D;&#x5EFA;&#x73AF;&#x5883;</h2>
+<p>&#x4EE5;&#x4E0B;&#x6D4B;&#x8BD5;&#x73AF;&#x5883;&#x5728; ubuntu 16.04 &#x4E0B;&#x642D;&#x5EFA;</p>
+<p>&#x8F6F;&#x4EF6;&#x5DE5;&#x5177;&#xFF1A;RFcat&#x3001;Osmocom&#x3001;Inspectrum</p>
+<p>&#x8BBE;&#x5907;&#xFF1A;</p>
+<p>YARD Stick One &#xFF08;&#x91CD;&#x653E;&#x4FE1;&#x53F7;&#xFF09;</p>
+<p>RTL-SDR &#x7535;&#x89C6;&#x68D2; &#xFF08;&#x6355;&#x83B7;&#x4FE1;&#x53F7;&#xFF09;</p>
+<p>&#x65E0;&#x7EBF;&#x95E8;&#x94C3;&#xFF0C;&#x4F7F;&#x7528; ASK/OOK &#x8C03;&#x5236;&#x7684; 1GHz &#x4EE5;&#x4E0B;&#x4FE1;&#x53F7;&#x8FD0;&#x884C;&#x7684;&#x8BBE;&#x5907;&#x3002;&#x82AF;&#x7247;&#x662F; <a href="https://datasheetspdf.com/datasheet/HS1527.html" target="_blank">HS1527</a>&#xFF0C; &#x53D1;&#x5C04;&#x9891;&#x7387;&#x4E3A; 433Mhz &#x3002;</p>
+<h2 id="&#x5B89;&#x88C5;-rfcat">&#x5B89;&#x88C5; rfcat</h2>
+<p>&#x4E0B;&#x8F7D; <a href="https://github.com/atlas0fd00m/rfcat" target="_blank">rfcat</a> &#x6E90;&#x7801;</p>
+<pre><code>$ git clone https://github.com/atlas0fd00m/rfcat
+</code></pre><p>&#x9700;&#x8981;&#x5B89;&#x88C5; python-usb&#xFF0C;libusb-1.0.0&#xFF0C;make &#x548C; sdcc &#x4F9D;&#x8D56;&#x548C;&#x5E93;&#x3002;</p>
+<pre><code>$ sudo apt install python-usb libusb-1.0.0 make sdcc
+$ cd rfcat
+$ pip install -r requirements.txt
+</code></pre><blockquote>
+<p>&#x5176;&#x4E2D; PySide2 &#x5B89;&#x88C5;&#x65F6;&#x53EF;&#x80FD;&#x4F1A;&#x78B0;&#x5230; &#x201C;ERROR: THESE PACKAGES DO NOT MATCH THE HASHES FROM THE REQUIREMENTS FILE. If you have updated the package versions, please update the hashes. Otherwise, examine the package contents carefully; someone may have tampered with them.&#x201D;</p>
+<p>&#x53EF;&#x901A;&#x8FC7; wget &#x5C06; PySide2-5.15.1-5.15.1-cp27-cp27mu-manylinux1_x86_64.whl &#x4E0B;&#x8F7D;&#x5230;&#x672C;&#x5730;&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#xFF08;pip install PySide2-5.15.1-5.15.1-cp27-cp27mu-manylinux1_x86_64.whl&#xFF09;&#x3002;</p>
+</blockquote>
+<p>&#x5F53;&#x52A0;&#x5BC6;&#x72D7;&#x663E;&#x793A;&#x5728;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E0A;&#x65F6;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x662F;&#x975E;ROOT&#x7528;&#x6237;&#x5219;&#x5FC5;&#x987B;&#x5177;&#x6709;&#x5BF9;&#x52A0;&#x5BC6;&#x72D7;&#x7684;&#x8BFB;/&#x5199;&#x8BBF;&#x95EE;&#x6743;&#x9650;&#xFF0C;&#x5BF9;&#x4E8E;&#x5927;&#x591A;&#x6570; Linux &#x53D1;&#x884C;&#x7248;&#xFF0C;&#x8FD9;&#x610F;&#x5473;&#x7740;&#x4F60;&#x5FC5;&#x987B;&#x662F;&#x201C; dialout&#x201D;&#x7EC4;&#x7684;&#x6210;&#x5458;&#x3002;</p>
+<pre><code>$ sudo usermod -a -G sudo $USER
+$ su - $USER
+</code></pre><p>&#x8FD8;&#x9700;&#x8981;&#x6C38;&#x4E45;&#x7684;&#x7B26;&#x53F7;&#x94FE;&#x63A5;&#x5230; USB &#x4E32;&#x884C;&#x8BBE;&#x5907;&#xFF0C;&#x4EE5;&#x4FBF;&#x5728;&#x9700;&#x8981;&#x65F6;&#x4E0E; CHRONOS&#xFF0C;DONSDONGLE&#x6216; YARDSTICKONE &#x5F15;&#x5BFC;&#x52A0;&#x8F7D;&#x7A0B;&#x5E8F;&#x8FDB;&#x884C;&#x901A;&#x4FE1;&#x3002;</p>
+<pre><code>$ sudo cp etc/udev/rules.d/20-rfcat.rules /etc/udev/rules.d
+$ sudo udevadm control --reload-rules
+</code></pre><p>&#x5B89;&#x88C5;&#x5BA2;&#x6237;&#x7AEF;</p>
+<pre><code>$ sudo python setup.py install
+</code></pre><p>&#x8FD0;&#x884C;&#x65F6;&#xFF0C;&#x542F;&#x7528;&#x9891;&#x8C31;&#x4EEA;&#x53D1;&#x751F;&#x7684;&#x9519;&#x8BEF;</p>
+<blockquote>
+<p>qt.qpa.plugin: Could not load the Qt platform plugin &quot;xcb&quot; in &quot;&quot; even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.</p>
+<p>&#x53EF;&#x6839;&#x636E; <a href="https://blog.csdn.net/zhanghm1995/article/details/106474505" target="_blank">https://blog.csdn.net/zhanghm1995/article/details/106474505</a> &#x63D0;&#x51FA;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x89E3;&#x51B3;</p>
+</blockquote>
+<pre><code>$ export QT_DEBUG_PLUGINS=1
+$ sudo apt-get install libxcb-xinerama0
+</code></pre><h2 id="&#x5B89;&#x88C5;-gr-osmosdr">&#x5B89;&#x88C5; gr-osmosdr</h2>
+<p>&#x5B89;&#x88C5;&#x4EE5;&#x540E;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; <strong>osmocom_fft</strong> &#x547D;&#x4EE4;&#x8FDB;&#x884C;&#x9891;&#x7387;&#x5F55;&#x5236;&#x3002;</p>
+<pre><code>$ sudo apt install gr-osmosdr
+</code></pre><p>&#x8FD0;&#x884C;&#x540E;&#xFF0C;&#x754C;&#x9762;&#x5982;&#x4E0B;</p>
+<pre><code>$ osmocom_fft
+</code></pre><figure id="fig1.4.5.1.1"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200914163705146.png" alt="image-20200914163705146" style="zoom: 67%;" width="600"><figcaption>&#x56FE; 1.4.5.1.1 - image-20200914163705146</figcaption></figure>
+<h2 id="&#x5B89;&#x88C5;-inspectrum">&#x5B89;&#x88C5; inspectrum</h2>
+<p>Inspectrum&#x662F;&#x4E00;&#x6B3E;&#x5206;&#x6790;&#x65E0;&#x7EBF;&#x4FE1;&#x53F7;&#x7684;&#x5DE5;&#x5177;&#xFF0C;&#x57FA;&#x4E8E;Linux&#x548C;OSX&#x3002;&#x5B83;&#x517C;&#x5BB9;GNURadio&#x3001;Osmocom_fft&#x8FD8;&#x6709;&#x5404;&#x7C7B;SDR&#x8BBE;&#x5907;&#x5BFC;&#x51FA;&#x7684;IQ&#x6587;&#x4EF6;&#x683C;&#x5F0F;&#xFF08;&#x4F8B;&#x5982;RTL-SDR&#x3001;HackRF&#x3001;BladeRF&#xFF09;&#xFF0C;&#x754C;&#x9762;&#x5982;&#x4E0B;&#x56FE;&#x3002; &#x5B89;&#x88C5; Inspectrum&#xFF0C;&#x53EF;&#x53C2;&#x8003;Wiki&#xFF1A;<a href="https://github.com/miek/inspectrum/wiki/Build" target="_blank">https://github.com/miek/inspectrum/wiki/Build</a></p>
+<pre><code># &#x5B89;&#x88C5;&#x4F9D;&#x8D56;
+$ sudo apt-get update
+$ sudo apt-get install qt5-default libfftw3-dev cmake pkg-config
+# &#x624B;&#x52A8;&#x5B89;&#x88C5; libliquid1d &#x548C; libliquid1d-dev
+$ cd ~/Downloads
+$ wget http://mirrors.kernel.org/ubuntu/pool/universe/l/liquid-dsp/libliquid1d_1.3.1-1_amd64.deb
+$ dpkg -x libliquid1d_1.3.1-1_amd64.deb ./
+
+$ wget http://mirrors.kernel.org/ubuntu/pool/universe/l/liquid-dsp/libliquid-dev_1.3.1-1_amd64.deb
+$ dpkg -x libliquid-dev_1.3.1-1_amd64.deb ./
+
+$ sudo cp  usr/lib/x86_64-linux-gnu/libliquid.* /usr/lib/x86_64-linux-gnu/
+$ sudo cp -ar usr/include/liquid /usr/include/
+
+# &#x5B89;&#x88C5;&#x7F16;&#x8BD1;&#x5DE5;&#x5177;
+sudo apt-get install build-essential git
+
+# &#x514B;&#x9686;&#x5B58;&#x50A8;&#x5E93;&#x5E76;&#x7F16;&#x8BD1;&#x5B89;&#x88C5; inspectrum
+$ cd ~/Downloads
+$ git clone https://github.com/miek/inspectrum.git
+$ cd inspectrum
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+$ sudo make install
+</code></pre><figure id="fig1.4.5.1.2"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200914163916011.png" alt="image-20200914163916011" width="600"><figcaption>&#x56FE; 1.4.5.1.2 - image-20200914163916011</figcaption></figure>
+<h2 id="rfcat-&#x63A5;&#x6536;&#x6D4B;&#x8BD5;">rfcat &#x63A5;&#x6536;&#x6D4B;&#x8BD5;</h2>
+<p>&#x5C06; YARD Stick One &#x63D2;&#x5165;&#x8BA1;&#x7B97;&#x673A; USB&#xFF0C;&#x7136;&#x540E;&#x8FDE;&#x63A5;&#x5230;&#x865A;&#x62DF;&#x673A;&#x4E0A;&#xFF0C;&#x9009;&#x62E9;<strong>&#x865A;&#x62DF;&#x673A; -&gt; &#x53EF;&#x79FB;&#x52A8;&#x8BBE;&#x5907; -&gt; OpenMoko YARD Stick One -&gt; &#x8FDE;&#x63A5;(&#x65AD;&#x5F00;&#x4E0E;&#x4E3B;&#x673A;&#x7684;&#x8FDE;&#x63A5;)</strong>&#x3002;</p>
+<figure id="fig1.4.5.1.3"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200910155416988.png" alt="image-20200910155416988" width="600"><figcaption>&#x56FE; 1.4.5.1.3 - image-20200910155416988</figcaption></figure>
+<p>&#x8FDE;&#x63A5;&#x540E;&#xFF0C;&#x6267;&#x884C; <code>lsusb</code>&#x547D;&#x4EE4;&#x53EF;&#x4EE5;&#x67E5;&#x770B; usb &#x8BBE;&#x5907;</p>
+<figure id="fig1.4.5.1.4"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200910155841040.png" alt="image-20200910155841040" width="600"><figcaption>&#x56FE; 1.4.5.1.4 - image-20200910155841040</figcaption></figure>
+<p>&#x8FD0;&#x884C; rfcat &#x8FDB;&#x884C;&#x4EA4;&#x4E92;&#x5F0F; Python Shell &#x8FDB;&#x884C;&#x6D4B;&#x8BD5;</p>
+<pre><code>$ sudo rfcat -r
+</code></pre><figure id="fig1.4.5.1.5"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200910172118884.png" alt="image-20200910172118884" width="600"><figcaption>&#x56FE; 1.4.5.1.5 - image-20200910172118884</figcaption></figure>
+<p>&#x5982;&#x56FE;&#xFF0C;&#x8BE5;&#x547D;&#x4EE4;&#x884C;&#x73AF;&#x5883;&#x4E0B;&#x6709;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x4F7F;&#x7528;&#x5E2E;&#x52A9;&#xFF1A;&#x6709;&#x4E00;&#x4E2A;&#x52A0;&#x5BC6;&#x72D7;&#x7684;&#x5168;&#x5C40;&#x5BF9;&#x8C61; d&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8BE5;&#x5BF9;&#x8C61;&#x4E0E;  YARD Stick One &#x8BBE;&#x5907;&#x8FDB;&#x884C;&#x4EA4;&#x4E92;&#xFF1A;</p>
+<ul>
+<li><p><strong>d.setFreq(freq)</strong> &#xFF1A;&#x8BBE;&#x7F6E;&#x6211;&#x4EEC;&#x8981;&#x4F20;&#x8F93;&#x7684;&#x9891;&#x7387;&#xFF0C;&#x5176;&#x4E2D;&#x201C; freq&#x201D; &#x66FF;&#x6362;&#x6210;&#x9891;&#x7387;&#xFF0C;&#x4F8B;&#x5982;d.setFreq(433000000)</p>
+</li>
+<li><p><strong>d.setMdmModulation(modulation)</strong>&#xFF1A;&#x8BBE;&#x7F6E;&#x6570;&#x5B57;&#x8C03;&#x5236;&#x6A21;&#x5F0F;&#xFF0C;&#x4F8B;&#x5982;&#x9065;&#x63A7;&#x5668;&#x662F;ASK / OOK&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4F7F;&#x7528;d.setMdmModulation(MOD_ASK_OOK)&#x3002;</p>
+</li>
+<li><p><strong>d.makePktFLEN(length)</strong>&#xFF1A;&#x4F7F;&#x7528;&#x56FA;&#x5B9A;&#x7684;&#x6570;&#x636E;&#x5305;&#x957F;&#x5EA6;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5B83;&#x6307;&#x5B9A;&#x6570;&#x636E;&#x5305;&#x7684;&#x5927;&#x5C0F;&#xFF0C;&#x56E0;&#x6B64;&#xFF0C;&#x5982;&#x679C;&#x53D1;&#x9001;&#x7684;&#x662F;&#x201C;\xDE\xAD\xBE\xEF&#x201D;&#xFF0C;&#x5219;&#x4E3A;d.makePktFLEN(4)&#x3002;</p>
+</li>
+<li><p><strong>d.setMdmDRate(baud)</strong>&#xFF1A;&#x6B64;&#x51FD;&#x6570;&#x8BBE;&#x7F6E;&#x6CE2;&#x7279;&#x7387;&#x6216;&#x4E00;&#x6B21;&#x8BBE;&#x7F6E;&#x591A;&#x5C11;&#x6570;&#x636E;&#xFF0C;&#x5BF9;&#x4E8E;&#x6211;&#x7684;&#x9065;&#x63A7;&#x5668;&#xFF0C;&#x5B83;&#x7EA6;&#x4E3A;4800&#x6CE2;&#x7279;&#xFF0C;&#x56E0;&#x6B64;&#x6211;&#x4F7F;&#x7528;d.setMdmDRate(4800)</p>
+</li>
+<li><p><strong>d.setMaxPower()</strong>&#xFF1A;&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x5E26;&#x6709; rfcat &#x56FA;&#x4EF6;&#x7684; CC1111EMK &#x4EE5;&#x4F4E;&#x529F;&#x7387;&#x53D1;&#x9001;&#x4FE1;&#x53F7;&#x3002;&#x5982;&#x679C;&#x8FD0;&#x884C;&#x6B64;&#x51FD;&#x6570;&#xFF0C;&#x5219;&#x4F1A;&#x5C06;&#x529F;&#x7387;&#x8BBE;&#x7F6E;&#x4E3A;&#x6700;&#x5927;&#xFF0C;&#x8FD9;&#x4F1A;&#x4F7F;&#x4FE1;&#x53F7;&#x4F20;&#x64AD;&#x5F97;&#x66F4;&#x957F;&#x4E00;&#x4E9B;&#x3002;</p>
+</li>
+<li><p><strong>d.RFxmit(\<bytestring>)</bytestring></strong>&#xFF1A;&#x8BE5;&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x6B63;&#x5E38;&#x4F7F;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x4F46;&#x51FA;&#x4E8E;&#x5904;&#x7406;&#x6570;&#x5B57;&#x7B49;&#x95EE;&#x9898;&#xFF0C;&#x53D1;&#x9001;&#x5B57;&#x8282;&#x4E32;&#x8981;&#x5BB9;&#x6613;&#x5F97;&#x591A;&#xFF0C;&#x5982;&#x679C;&#x53D1;&#x9001;&#x7684;&#x662F;0xDEADBEEF&#xFF0C;&#x5219;&#x5E94;&#x8BE5;&#x4F7F;&#x7528;d.RFxmit(&apos;\xDE\xAD\xBE\xEF&apos;)</p>
+</li>
+</ul>
+<p>&#x63A2;&#x6D4B;&#x4FE1;&#x53F7;&#xFF0C;&#x4F7F;&#x7528; d.specan(freq)&#xFF0C;&#x6211;&#x8FD9;&#x4E2A;&#x9065;&#x63A7;&#x7684;&#x9891;&#x7387;&#x4E3A; 433Mhz&#xFF0C;&#x4F7F;&#x7528;&#x6B64;&#x9065;&#x63A7;&#x7684;&#x9891;&#x7387;&#xFF08;433000000&#xFF09;&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#xFF0C;&#x8FD0;&#x884C;&#x540E;&#x5F39;&#x51FA;&#x4E00;&#x4E2A;&#x9891;&#x8C31;&#x626B;&#x63CF;&#x4EEA;&#x7A97;&#x53E3;&#xFF0C;&#x5982;&#x56FE;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x5230; 433Mhz &#x5728;&#x8FD9;&#x4E2A;&#x626B;&#x63CF;&#x8303;&#x56F4;&#x5185;&#x3002;</p>
+<pre><code>In [1]: d.specan(433000000)
+</code></pre><figure id="fig1.4.5.1.6"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200914160522592.png" alt="image-20200914160522592" width="600"><figcaption>&#x56FE; 1.4.5.1.6 - image-20200914160522592</figcaption></figure>
+<p>&#x6309;&#x4E0B;&#x95E8;&#x94C3;&#x9065;&#x63A7;&#x540E;&#xFF0C;&#x8BBE;&#x5907;&#x6210;&#x529F;&#x626B;&#x63CF;&#x5230;&#x8BE5;&#x4FE1;&#x53F7;&#xFF0C;&#x9891;&#x7387;&#x4E3A; 434.257907Mhz</p>
+<figure id="fig1.4.5.1.7"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200914160628301.png" alt="image-20200914160628301" width="600"><figcaption>&#x56FE; 1.4.5.1.7 - image-20200914160628301</figcaption></figure>
+<p>&#x4E5F;&#x53EF;&#x4EE5;&#x6355;&#x83B7;&#x4FE1;&#x53F7;&#x5E76;&#x4EE5;&#x6570;&#x636E;&#x5305;&#x663E;&#x793A;&#x51FA;&#x6765;&#xFF0C;&#x4F9D;&#x6B21;&#x8BBE;&#x7F6E;&#x53C2;&#x6570;&#xFF08;&#x8BBE;&#x7F6E;&#x9891;&#x7387;&#x4E0A;&#x9762;&#x7684;&#x5CF0;&#x503C;434257907hz&#xFF09;&#x3002;</p>
+<pre><code>In [2]: d.setFreq(434257907)
+
+In [3]: d.setMdmModulation(MOD_ASK_OOK)
+
+In [4]: d.setMdmDRate(4800)
+
+In [5]: d.setMaxPower()
+
+In [6]: d.lowball() // &#x8FD9;&#x4F1A;&#x5C06;&#x65E0;&#x7EBF;&#x7535;&#x914D;&#x7F6E;&#x4E3A;&#x5C3D;&#x53EF;&#x80FD;&#x4F4E;&#x7684;&#x8FC7;&#x6EE4;&#x7EA7;&#x522B;&#xFF0C;&#x4ECE;&#x800C;&#x6709;&#x53EF;&#x80FD;&#x4F7F;&#x6574;&#x4E2A;&#x65E0;&#x7EBF;&#x7535;&#x566A;&#x58F0;&#x4F5C;&#x4E3A;&#x6570;&#x636E;&#x901A;&#x8FC7;&#x3002;
+In [7]: d.RFlisten() //&#x8FD0;&#x884C; d.RFlisten() &#x53EF;&#x4EE5;&#x6301;&#x7EED;&#x6293;&#x53D6;&#x6570;&#x636E;&#x4F20;&#x8F93;&#xFF0C;&#x5E76;&#x4EE5; HEX &#x548C; ASCII &#x683C;&#x5F0F;&#x663E;&#x793A;&#x5B83;&#x4EEC;&#x3002;&#x6309; Enter &#x5C06;&#x505C;&#x6B62;&#x6B64;&#x547D;&#x4EE4;&#xFF0C;&#x4F7F;&#x7528;&#x6237;&#x8FD4;&#x56DE;&#x4EA4;&#x4E92;&#x5F0F; shell&#x3002;
+
+Entering RFlisten mode...  packets arriving will be displayed on the screen
+(press Enter to stop)
+...
+(1599788652.686) Received:  ffffffffffffffffdffffffffffffffffffeffffdfffffffffffffffffffffffffffffffffffffffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdfffffffff7ffffffffffff7ffffffffffbffffffffffffbfffffffff00002000000e4c3fdc7861ffbff7ffbc3ffbc3ffef0ffffe7f3e1fffbe9e2f4fffef87c00004c8002fffbe1fffdf8f87c3fffefffffbfffff7f9fffffdfe1fffffeff0fffffdfe1ff3bfd3fffffffffce36fe17fffffa3ffffffffffcfbbe0000001040000002c0840620df7602580fbdffffff1aeffffffffffeffffffffffffffffff7ffffffffffffffffffff  | ..................................................................................................................L?.xa.....?........&gt;..../O......../........................................o....................,.@b..`%................................
+(1599788656.259) Received:  fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3edbebf7cbffffffffffffffffffdffffffffffffffffffffdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc00000000008a21c020c28388c5efff387ffde1fff3c3fffbe1e1e1fffefa7c7c3fffefc7e0002710094fffe7c3fffefc3e1f8fffff3fffff7fffffdfe1ffffffb40325689d5ef0fff9fffdff0ff87f83fffffffdffc3fe3ff0fffffffff400000000000000003fcc3ff70e1c3ff7ff7ff387ffbc3fff7c7fff7d7e1f0ffffdfc7f0fe9ffffffbff7ffc02a281c  | ......................................................|............................................................!........8..............||?.....&apos;..O......&gt;....?............%h.^.................?..............?.?...?.......?.|..}~...............*(.
+</code></pre><p>&#x4F46;&#x901A;&#x8FC7;&#x89C2;&#x5BDF;&#x6570;&#x636E;&#x5305;&#x5E76;&#x6CA1;&#x6709;&#x53D1;&#x73B0;&#x4EC0;&#x4E48;&#x89C4;&#x5F8B;&#xFF0C;&#x6240;&#x4EE5;&#x7528;&#x63A5;&#x4E0B;&#x6765;&#x8BF4;&#x7684;&#x65B9;&#x6CD5;&#x8FDB;&#x884C;&#x6293;&#x53D6;&#x3002;</p>
+<h2 id="osmocom--&#x6355;&#x83B7;&#x4FE1;&#x53F7;">osmocom  &#x6355;&#x83B7;&#x4FE1;&#x53F7;</h2>
+<p>&#x5C06; SDR &#xFF0C;&#x542F;&#x52A8; osmocom &#x6355;&#x83B7;&#x4FE1;&#x53F7;&#xFF0C;<code>-f</code> &#x6307;&#x5B9A;&#x9891;&#x7387;&#xFF0C;<code>-s</code>&#x8BBE;&#x7F6E;&#x91C7;&#x6837;&#x7387;&#x3002;</p>
+<pre><code>$ osmocom_fft -f 43425e4 -s 8e6
+</code></pre><p>&#x70B9;&#x51FB;&#x53F3;&#x4E0B;&#x89D2;&#x8FDB;&#x884C; REC &#x6309;&#x94AE;&#x8FDB;&#x884C;&#x5F55;&#x5236;&#x6355;&#x83B7;&#xFF0C;&#x5B83;&#x5C06;&#x4EA7;&#x751F;&#x4E00;&#x4E2A; <code>.cfile</code> &#x7684;&#x4FE1;&#x53F7;&#x6587;&#x4EF6;&#x3002;</p>
+<figure id="fig1.4.5.1.8"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916144646758.png" alt="image-20200916144646758" width="600"><figcaption>&#x56FE; 1.4.5.1.8 - image-20200916144646758</figcaption></figure>
+<p>&#x7136;&#x540E;&#x6309;&#x4E0B;&#x9065;&#x63A7;&#xFF0C;&#x5E76;&#x6309;&#x4F4F; 2 &#x79D2;&#x540E;&#x677E;&#x5F00;&#xFF0C;&#x518D;&#x6B21;&#x70B9;&#x51FB;&#x53F3;&#x4E0B;&#x89D2; <code>stop</code> &#x6309;&#x94AE;&#xFF0C;&#x5173;&#x95ED;&#x7A97;&#x53E3;&#x540E;&#x5728;&#x7EC8;&#x7AEF;&#x4E0B;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x751F;&#x6210;&#x7684;&#x4FE1;&#x53F7;&#x6587;&#x4EF6;&#x8DEF;&#x5F84;&#x3002;</p>
+<figure id="fig1.4.5.1.9"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916152417724.png" alt="image-20200916152417724" width="600"><figcaption>&#x56FE; 1.4.5.1.9 - image-20200916152417724</figcaption></figure>
+<h2 id="inspectrum-&#x5904;&#x7406;&#x4FE1;&#x53F7;">inspectrum &#x5904;&#x7406;&#x4FE1;&#x53F7;</h2>
+<p>&#x4F7F;&#x7528; inspectrum &#x52A0;&#x8F7D;&#x4FE1;&#x53F7;&#x6587;&#x4EF6;</p>
+<pre><code>$ inspectrum /tmp/name-f4.342500e+08-s2.000000e+06-t20200916152347.cfile
+</code></pre><p>&#x52A0;&#x8F7D;&#x540E;&#xFF0C;&#x5C06;&#x91C7;&#x6837;&#x7387;&#x8BBE;&#x7F6E;&#x6210;&#x4E4B;&#x524D;&#x5F55;&#x5236;&#x4F7F;&#x7528;&#x7684; <code>-s</code> &#x53C2;&#x6570;&#xFF08;&#x672C;&#x4F8B;&#x4E3A;8e6&#xFF09;&#xFF0C;&#x5E76;&#x8C03;&#x6574; FFT &#x5927;&#x5C0F;&#x548C;&#x7F29;&#x653E;&#x4EE5;&#x66F4;&#x597D;&#x5730;&#x4E86;&#x89E3;&#x9891;&#x8C31;&#x56FE;&#x3002;&#x901A;&#x5E38;&#xFF0C;&#x5148;&#x7F29;&#x5C0F;&#x4E00;&#x70B9;&#x4EE5;&#x67E5;&#x770B;&#x6211;&#x8981;&#x5904;&#x7406;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x5728;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#xFF08;&#x901A;&#x5E38;&#x662F;&#x4F7F;&#x7528;&#x57FA;&#x672C;OOK&#x8FDB;&#x884C;&#x5904;&#x7406;&#xFF09;&#x662F;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x91CD;&#x590D;&#x4FE1;&#x53F7;&#x3002;</p>
+<figure id="fig1.4.5.1.10"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916152448998.png" alt="image-20200916152448998" width="600"><figcaption>&#x56FE; 1.4.5.1.10 - image-20200916152448998</figcaption></figure>
+<p>&#x73B0;&#x5728;&#xFF0C;&#x901A;&#x8FC7;&#x6EDA;&#x8F6E;&#x9009;&#x62E9;&#x653E;&#x5927;&#x5F00;&#x5934;&#x7684;&#x90A3;&#x90E8;&#x5206;&#xFF0C;&#x5E76;&#x53F3;&#x952E;  Add derived plot -&gt; Add threshold plot &#x6DFB;&#x52A0;&#x9608;&#x503C;&#x56FE;&#xFF0C;&#x4EE5;&#x66F4;&#x597D;&#x5730;&#x53EF;&#x89C6;&#x5316;&#x4FE1;&#x53F7;&#x3002;</p>
+<figure id="fig1.4.5.1.11"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916152529356.png" alt="image-20200916152529356" width="600"><figcaption>&#x56FE; 1.4.5.1.11 - image-20200916152529356</figcaption></figure>
+<p>&#x5C06;&#x7EA2;&#x7EBF;&#x5BF9;&#x51C6;&#x4FE1;&#x53F7;&#x7684;&#x4E2D;&#x5FC3;&#xFF0C;&#x4E0B;&#x65B9;&#x4F1A;&#x663E;&#x793A;&#x632F;&#x5E45;&#x56FE;&#x3002;&#x901A;&#x8FC7;&#x8C03;&#x6574;&#x7EA2;&#x7EBF;&#x4E24;&#x4FA7;&#x7684;&#x767D;&#x7EBF;&#xFF0C;&#x79BB;&#x7EA2;&#x7EBF;&#x8D8A;&#x8FD1;&#xFF0C;&#x4E0B;&#x9762;&#x632F;&#x5E45;&#x56FE;&#x7684;&#x5CF0;&#x503C;&#x66F4;&#x63A5;&#x8FD1;&#x76F4;&#x7EBF;&#x3002;</p>
+<figure id="fig1.4.5.1.12"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916152557309.png" alt="image-20200916152557309" width="600"><figcaption>&#x56FE; 1.4.5.1.12 - image-20200916152557309</figcaption></figure>
+<p>&#x5728;&#x5DE6;&#x4FA7;&#x63A7;&#x5236;&#x680F;&#x4E0B;&#x7684; Time selection &#x53EF;&#x5BF9;&#x6CE2;&#x5F62;&#x8FDB;&#x884C;&#x5212;&#x5206;&#xFF0C;&#x542F;&#x7528; Enable cursors&#xFF0C;&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x4EE5;&#x4E00;&#x4F4D;<strong>&#x201C;&#x5185;&#x7801;&#x201D;</strong>&#x4FE1;&#x53F7;&#x7684;&#x5BBD;&#x5EA6;&#x4E3A;&#x6807;&#x51C6;&#x3002;&#x63A5;&#x7740;&#x5BF9;Symbols&#x6570;&#x503C;&#x8FDB;&#x884C;&#x9012;&#x589E;&#xFF0C;&#x76F4;&#x81F3;&#x56CA;&#x62EC;&#x4E00;&#x5E27;&#x4FE1;&#x53F7;&#x7684;&#x6CE2;&#x5F62;&#x533A;&#x57DF;&#x3002;</p>
+<figure id="fig1.4.5.1.13"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916153335471.png" alt="image-20200916153335471" width="600"><figcaption>&#x56FE; 1.4.5.1.13 - image-20200916153335471</figcaption></figure>
+<p>&#x5173;&#x4E8E;&#x5185;&#x7801;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003; <a href="https://datasheetspdf.com/datasheet/HS1527.html" target="_blank">HS1527 &#x82AF;&#x7247;&#x624B;&#x518C;</a>&#xFF0C;HS1527&#x7801;&#x578B;&#x5982;&#x4E0B;&#xFF1A;</p>
+<figure id="fig1.4.5.1.14"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200915172212602.png" alt="image-20200915172212602" width="600"><figcaption>&#x56FE; 1.4.5.1.14 - image-20200915172212602</figcaption></figure>
+<p>&#x73B0;&#x5728;&#x6211;&#x4EEC;&#x77E5;&#x9053;&#x5728; inspectrum &#x91CC;&#x9762;&#x770B;&#x5230;&#x7684;&#x4FE1;&#x53F7;&#x662F;&#x4EC0;&#x4E48;&#x610F;&#x601D;&#x4E86;&#xFF0C;&#x603B;&#x7ED3;&#x4E0B;&#xFF1A;&#x4E00;&#x5E27;&#x4FE1;&#x53F7;&#x7684;&#x7F16;&#x7801;&#x683C;&#x5F0F;&#x4E3A;<strong>&#x201C;&#x2265;8&#x4F4D;&#x540C;&#x6B65;&#x7801; + 20&#x4F4D;&#x5185;&#x7801; + 4&#x4F4D;&#x6570;&#x636E;&#x7801;&#x201D;</strong>&#x3002;&#x672C;&#x4F8B;&#x4E00;&#x5171;&#x4E3A; 32 &#x4F4D;&#x7801;&#x3002;</p>
+<figure id="fig1.4.5.1.15"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916153901578.png" alt="image-20200916153901578" width="600"><figcaption>&#x56FE; 1.4.5.1.15 - image-20200916153901578</figcaption></figure>
+<p>&#x9009;&#x62E9; Extract symbols -&gt; To stdout &#x63D0;&#x53D6; Symbols&#x3002;</p>
+<figure id="fig1.4.5.1.16"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916153933132.png" alt="image-20200916153932370" width="600"><figcaption>&#x56FE; 1.4.5.1.16 - image-20200916153932370</figcaption></figure>
+<p>&#x63D0;&#x53D6;&#x540E;&#xFF0C;&#x5728;&#x7EC8;&#x7AEF;&#x4E0A;&#x4F1A;&#x663E;&#x793A;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;</p>
+<figure id="fig1.4.5.1.17"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916154002747.png" alt="image-20200916154002747" width="600"><figcaption>&#x56FE; 1.4.5.1.17 - image-20200916154002747</figcaption></figure>
+<p>&#x5728;&#x524D;&#x9762; rfcat -r &#x7684;&#x4EA4;&#x4E92;&#x547D;&#x4EE4;&#x884C;&#x4E0B;&#x5C06; symbol &#x89E3;&#x7801;&#x6210; 32 &#x4F4D;&#x7801; <code>00000000101000111010101000100010</code>&#xFF0C;&#x518D;&#x53C2;&#x8003;&#x4E0A;&#x9762;&#x82AF;&#x7247;&#x624B;&#x518C;&#x622A;&#x56FE;&#x4E2D;&#x7684;&#x540C;&#x6B65;&#x4F4D;&#x548C;&#x5185;&#x7801;&#x5C06;&#x6309;&#x9AD8;&#x4F4E;&#x7535;&#x5E73;&#x5BBD;&#x5EA6;&#x6BD4;&#x6362;&#x7B97;&#x6210;&#x4E8C;&#x8FDB;&#x5236;&#x4F4D;&#xFF1A;<code>10000000000000000000000000000000111010001110100010001000111011101110100011101000111010001110100010001000111010001000100011101000</code></p>
+<figure id="fig1.4.5.1.18"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916162639232.png" alt="image-20200916162639232" width="600"><figcaption>&#x56FE; 1.4.5.1.18 - image-20200916162639232</figcaption></figure>
+<p>&#x6700;&#x540E;&#xFF0C;&#x518D;&#x5C06;&#x4E8C;&#x8FDB;&#x5236;&#x4F4D;&#x8F6C;&#x4E3A;&#x5341;&#x516D;&#x8FDB;&#x5236;&#xFF0C;&#x4F7F;&#x7528; <strong>d.RFxmit()</strong> &#x5C31;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; yardstickone &#x8FDB;&#x884C;&#x91CD;&#x653E;&#x4FE1;&#x53F7;&#xFF0C;&#x8FD0;&#x884C;&#x4EE5;&#x540E;&#xFF0C;&#x8FD9;&#x65F6;&#x95E8;&#x94C3;&#x4F1A;&#x54CD;&#x8D77;&#x3002;</p>
+<figure id="fig1.4.5.1.19"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916160723616.png" alt="image-20200916160723616" width="600"><figcaption>&#x56FE; 1.4.5.1.19 - image-20200916160723616</figcaption></figure>
+<p>&#x6574;&#x7406;&#x6210;&#x811A;&#x672C;</p>
+<pre><code>from rflib import *
+import sys, bitstring
+
+def init(device):
+    device.setMdmModulation(MOD_ASK_OOK)
+        device.setFreq(433920000)
+        device.setMdmSyncMode(0x00)
+        device.setMdmNumPreamble(0)
+        device.setPktPQT(0)
+        device.setMaxPower()
+    device.setMdmDRate(2450)
+
+def get_bitstring(*symbols):
+    bs = &apos;&apos;
+    for s in symbols:
+            if s &gt; 0:
+                bs += &apos;1&apos;
+            else:
+                bs += &apos;0&apos;
+    print bs
+
+def bits2bytes(bit_string):
+    return bitstring.BitArray(bin=str(bit_string.strip())).tobytes()
+</code></pre><h2 id="rfcat-&#x91CD;&#x653E;&#x4FE1;&#x53F7;">rfcat &#x91CD;&#x653E;&#x4FE1;&#x53F7;</h2>
+<p>&#x7EC8;&#x7AEF;&#x6267;&#x884C; <strong>bits2bytes()</strong> &#x65B9;&#x6CD5;&#xFF0C;&#x5C06;<code>10000000000000000000000000000000111010001110100010001000111011101110100011101000111010001110100010001000111010001000100011101000</code>&#x8F6C;&#x6362;&#x4E3A;&#x5B57;&#x8282;&#xFF0C;&#x6700;&#x540E;&#x6267;&#x884C; rfcat &#x7684; d.RFxmit() &#x65B9;&#x6CD5;&#xFF0C;&#x8FDB;&#x884C;&#x91CD;&#x653E;&#x4FE1;&#x53F7;&#xFF08;&#x5FAA;&#x73AF; 10 &#x6B21;&#x4EE5;&#x4E0A;&#xFF09;&#xFF0C;&#x8FD0;&#x884C;&#x540E;&#x95E8;&#x94C3;&#x54CD;&#x8D77;</p>
+<figure id="fig1.4.5.1.20"><img src="https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200915173032091.png" alt="image-20200915173032091" width="600"><figcaption>&#x56FE; 1.4.5.1.20 - image-20200915173032091</figcaption></figure>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page: 3.5 无线遥控系统安全">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../lora/introduction.html" class="navigation navigation-next " aria-label="Next page: 3.6 LoRa技术">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"3.5.1 使用YARD Stick One重放信号","level":"1.4.5.1","depth":3,"next":{"title":"3.6 LoRa技术","level":"1.4.6","depth":2,"path":"radio-security/lora/introduction.md","ref":"radio-security/lora/introduction.md","articles":[{"title":"3.6.1 LoRa简介","level":"1.4.6.1","depth":3,"path":"radio-security/lora/introduction.md","ref":"radio-security/lora/introduction.md","articles":[]},{"title":"3.6.2 LoRa通信","level":"1.4.6.2","depth":3,"path":"radio-security/lora/example.md","ref":"radio-security/lora/example.md","articles":[]}]},"previous":{"title":"3.5 无线遥控系统安全","level":"1.4.5","depth":2,"path":"radio-security/rf-remote-control/introduction.md","ref":"radio-security/rf-remote-control/introduction.md","articles":[{"title":"3.5.1 使用YARD Stick One重放信号","level":"1.4.5.1","depth":3,"path":"radio-security/rf-remote-control/replay.md","ref":"radio-security/rf-remote-control/replay.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","-livereload","image-captions","github","editlink","favicon","baidu-v3"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/iot-security-wiki/IoT-Security-Wiki"},"editlink":{"label":"编辑本页","multilingual":false,"base":"https://github.com/iot-security-wiki/IoT-Security-Wiki/blob/main/"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"baidu-v3":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"_assets/images/favicon.ico","bookmark":"_assets/images/favicon.ico","appleTouch":"_assets/images/favicon.ico"},"baidu":{"token":"48641a656027200b303252d1a624db82"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"image-captions":{"attributes":{"width":"600"},"caption":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","variable_name":"_pictures"}},"theme":"default","author":"Yaseng、独抒、BG7YWL","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.1","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":1,"url":"https://pic4.zhimg.com/80/v2-ad343eb302e2f63d578cfc1974a1418f_720w.jpg","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.1"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.2","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":2,"url":"https://pic1.zhimg.com/80/v2-02422cd1370a971d3d3d640a203b4ca4_720w.jpg","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.2"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.3","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":3,"url":"https://pic1.zhimg.com/80/v2-367a3ecca14c2ed1988025bc932f2bec_720w.jpg","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.3"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.4","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":4,"url":"https://pic2.zhimg.com/80/v2-64734a6e94d3ca793af252af10f7f4f1_720w.jpg","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.4"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.5","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":5,"url":"https://pic3.zhimg.com/80/v2-b66ffdc7588810d943f81f5159202656_720w.jpg","index":5,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.5"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.6","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":6,"url":"https://pic1.zhimg.com/80/v2-c48d10b0291c205b164d5e7920645144_720w.jpg","index":6,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.6"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.7","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":7,"url":"https://pic2.zhimg.com/80/v2-831093ceb1dd38248e80b0a8265c3e8d_720w.jpg","index":7,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.7"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.8","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":8,"url":"https://pic3.zhimg.com/80/v2-1025c6f92bfd32e48d5dc5dbb42d2d66_720w.jpg","index":8,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.8"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.9","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":9,"url":"https://pic1.zhimg.com/80/v2-3669c79c6b2da8e3a0e7d5a4ad4f11a4_720w.jpg","index":9,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.9"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.10","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":10,"url":"https://pic1.zhimg.com/80/v2-5aba634bb81d2d8133004e17c78bb420_720w.jpg","index":10,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.10"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.11","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":11,"url":"https://pic3.zhimg.com/80/v2-578a55d280d7a8810ff98ba8983b45da_720w.jpg","index":11,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.11"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.12","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":12,"url":"https://pic2.zhimg.com/80/v2-364a5a477f33479e1adfe95f702cb551_720w.jpg","index":12,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.12"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.13","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":13,"url":"https://pic3.zhimg.com/80/v2-cdcbf402370fadf5c51e9476678b497e_720w.jpg","index":13,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.13"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.14","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":14,"url":"https://pic1.zhimg.com/80/v2-4f4a9464af855d679d6260a89e129eb8_720w.jpg","index":14,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.14"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.15","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":15,"url":"https://pic1.zhimg.com/80/v2-95add86c5d515fbc361cacd93559ff44_720w.jpg","index":15,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.15"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.16","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":16,"url":"https://pic2.zhimg.com/80/v2-56d71d9b319809d4bffd6a0e143ad131_720w.jpg","index":16,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.16"},{"backlink":"hardware-security/protocol/hardware.html#fig1.3.4.3.17","level":"1.3.4.3","list_caption":"Figure: img","alt":"img","nro":17,"url":"https://pic2.zhimg.com/80/v2-380836f15886e9cb33de6293783173a5_720w.jpg","index":17,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.4.3.17"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.1","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":18,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/1.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.1"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.2","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":19,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/2.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.2"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.3","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":20,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/3.png","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.3"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.4","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":21,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/4.png","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.4"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.5","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":22,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/5.png","index":5,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.5"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.6","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":23,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/6.png","index":6,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.6"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.7","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":24,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/7.png","index":7,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.7"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.8","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":25,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/8.png","index":8,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.8"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.9","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":26,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/9.png","index":9,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.9"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.10","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":27,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/10.png","index":10,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.10"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.11","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":28,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/11.png","index":11,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.11"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.12","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":29,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/12.png","index":12,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.12"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.13","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":30,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/13.png","index":13,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.13"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.14","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":31,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/14.png","index":14,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.14"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.15","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":32,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/15.png","index":15,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.15"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.16","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":33,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/16.png","index":16,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.16"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.17","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":34,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/17.png","index":17,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.17"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.18","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":35,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/18.png","index":18,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.18"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.19","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":36,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/19.png","index":19,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.19"},{"backlink":"hardware-security/debug/jtagulator.html#fig1.3.5.3.20","level":"1.3.5.3","list_caption":"Figure: img","alt":"img","nro":37,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/4/20.png","index":20,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.5.3.20"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.1","level":"1.3.10.1","list_caption":"Figure: image-20201112194124466","alt":"image-20201112194124466","nro":38,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201112194124466.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201112194124466","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.1"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.2","level":"1.3.10.1","list_caption":"Figure: image-20201116141348745","alt":"image-20201116141348745","nro":39,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201116141348745.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201116141348745","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.2"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.3","level":"1.3.10.1","list_caption":"Figure: image-20201113131858732","alt":"image-20201113131858732","nro":40,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113131858732.png","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113131858732","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.3"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.4","level":"1.3.10.1","list_caption":"Figure: image-20201113131941484","alt":"image-20201113131941484","nro":41,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113131941484.png","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113131941484","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.4"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.5","level":"1.3.10.1","list_caption":"Figure: image-20201113132045448","alt":"image-20201113132045448","nro":42,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113132045448.png","index":5,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113132045448","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.5"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.6","level":"1.3.10.1","list_caption":"Figure: image-20201113132134803","alt":"image-20201113132134803","nro":43,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113132134803.png","index":6,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113132134803","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.6"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.7","level":"1.3.10.1","list_caption":"Figure: image-20201113132147198","alt":"image-20201113132147198","nro":44,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113132147198.png","index":7,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113132147198","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.7"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.8","level":"1.3.10.1","list_caption":"Figure: image-20201118152427982","alt":"image-20201118152427982","nro":45,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201118152427982.png","index":8,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201118152427982","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.8"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.9","level":"1.3.10.1","list_caption":"Figure: image-20201118152446142","alt":"image-20201118152446142","nro":46,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201118152446142.png","index":9,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201118152446142","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.9"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.10","level":"1.3.10.1","list_caption":"Figure: image-20201118152504000","alt":"image-20201118152504000","nro":47,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201118152504000.png","index":10,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201118152504000","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.10"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.11","level":"1.3.10.1","list_caption":"Figure: image-20201113133935336","alt":"image-20201113133935336","nro":48,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113133935336.png","index":11,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113133935336","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.11"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.12","level":"1.3.10.1","list_caption":"Figure: image-20201113134106752","alt":"image-20201113134106752","nro":49,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134106752.png","index":12,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134106752","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.12"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.13","level":"1.3.10.1","list_caption":"Figure: image-20201113134112602","alt":"image-20201113134112602","nro":50,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134112602.png","index":13,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134112602","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.13"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.14","level":"1.3.10.1","list_caption":"Figure: image-20201113134118925","alt":"image-20201113134118925","nro":51,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134118925.png","index":14,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134118925","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.14"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.15","level":"1.3.10.1","list_caption":"Figure: image-20201113134123337","alt":"image-20201113134123337","nro":52,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134123337.png","index":15,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134123337","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.15"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.16","level":"1.3.10.1","list_caption":"Figure: image-20201113134128377","alt":"image-20201113134128377","nro":53,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134128377.png","index":16,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134128377","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.16"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.17","level":"1.3.10.1","list_caption":"Figure: image-20201113134427372","alt":"image-20201113134427372","nro":54,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134427372.png","index":17,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134427372","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.17"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.18","level":"1.3.10.1","list_caption":"Figure: image-20201113134543095","alt":"image-20201113134543095","nro":55,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134543095.png","index":18,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134543095","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.18"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.19","level":"1.3.10.1","list_caption":"Figure: image-20201113134616128","alt":"image-20201113134616128","nro":56,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134616128.png","index":19,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134616128","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.19"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.20","level":"1.3.10.1","list_caption":"Figure: image-20201113134652524","alt":"image-20201113134652524","nro":57,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134652524.png","index":20,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134652524","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.20"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.21","level":"1.3.10.1","list_caption":"Figure: image-20201113134703946","alt":"image-20201113134703946","nro":58,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134703946.png","index":21,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134703946","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.21"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.22","level":"1.3.10.1","list_caption":"Figure: image-20201113134714930","alt":"image-20201113134714930","nro":59,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134714930.png","index":22,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134714930","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.22"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.23","level":"1.3.10.1","list_caption":"Figure: image-20201113134742657","alt":"image-20201113134742657","nro":60,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134742657.png","index":23,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134742657","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.23"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.24","level":"1.3.10.1","list_caption":"Figure: image-20201113134750810","alt":"image-20201113134750810","nro":61,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134750810.png","index":24,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134750810","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.24"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.25","level":"1.3.10.1","list_caption":"Figure: image-20201113134800177","alt":"image-20201113134800177","nro":62,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134800177.png","index":25,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134800177","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.25"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.26","level":"1.3.10.1","list_caption":"Figure: image-20201113134812177","alt":"image-20201113134812177","nro":63,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134812177.png","index":26,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134812177","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.26"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.27","level":"1.3.10.1","list_caption":"Figure: image-20201113134815545","alt":"image-20201113134815545","nro":64,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134815545.png","index":27,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134815545","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.27"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.28","level":"1.3.10.1","list_caption":"Figure: image-20201113134825466","alt":"image-20201113134825466","nro":65,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134825466.png","index":28,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134825466","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.28"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.29","level":"1.3.10.1","list_caption":"Figure: image-20201113134828931","alt":"image-20201113134828931","nro":66,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134828931.png","index":29,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134828931","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.29"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.30","level":"1.3.10.1","list_caption":"Figure: image-20201113134839941","alt":"image-20201113134839941","nro":67,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134839941.png","index":30,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134839941","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.30"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.31","level":"1.3.10.1","list_caption":"Figure: image-20201113134848303","alt":"image-20201113134848303","nro":68,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134848303.png","index":31,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134848303","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.31"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.32","level":"1.3.10.1","list_caption":"Figure: image-20201113134851298","alt":"image-20201113134851298","nro":69,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134851298.png","index":32,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134851298","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.32"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.33","level":"1.3.10.1","list_caption":"Figure: image-20201113134859971","alt":"image-20201113134859971","nro":70,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134859971.png","index":33,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134859971","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.33"},{"backlink":"hardware-security/cases/smart-hard-drive.html#fig1.3.10.1.34","level":"1.3.10.1","list_caption":"Figure: image-20201113134907567","alt":"image-20201113134907567","nro":71,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201113134907567.png","index":34,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201113134907567","attributes":{"width":"600"},"skip":false,"key":"1.3.10.1.34"},{"backlink":"hardware-security/cases/router.html#fig1.3.10.2.1","level":"1.3.10.2","list_caption":"Figure: image-20201118173219549","alt":"image-20201118173219549","nro":72,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201118173219549.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201118173219549","attributes":{"width":"600"},"skip":false,"key":"1.3.10.2.1"},{"backlink":"hardware-security/cases/router.html#fig1.3.10.2.2","level":"1.3.10.2","list_caption":"Figure: 20201118165834","alt":"20201118165834","nro":73,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/20201118165834.jpg","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"20201118165834","attributes":{"width":"600"},"skip":false,"key":"1.3.10.2.2"},{"backlink":"hardware-security/cases/router.html#fig1.3.10.2.3","level":"1.3.10.2","list_caption":"Figure: image-20201118173803487","alt":"image-20201118173803487","nro":74,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201118173803487.png","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201118173803487","attributes":{"width":"600"},"skip":false,"key":"1.3.10.2.3"},{"backlink":"hardware-security/cases/router.html#fig1.3.10.2.4","level":"1.3.10.2","list_caption":"Figure: image-20201118174512699","alt":"image-20201118174512699","nro":75,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201118174512699.png","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20201118174512699","attributes":{"width":"600"},"skip":false,"key":"1.3.10.2.4"},{"backlink":"hardware-security/cases/router.html#fig1.3.10.2.5","level":"1.3.10.2","list_caption":"Figure: img","alt":"img","nro":76,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/5b390d6b2a969.png","index":5,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.10.2.5"},{"backlink":"hardware-security/cases/router.html#fig1.3.10.2.6","level":"1.3.10.2","list_caption":"Figure: img","alt":"img","nro":77,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/5b390e34d34ae.png","index":6,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.10.2.6"},{"backlink":"hardware-security/cases/router.html#fig1.3.10.2.7","level":"1.3.10.2","list_caption":"Figure: img","alt":"img","nro":78,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/5b39100b3120a.png","index":7,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.10.2.7"},{"backlink":"hardware-security/cases/router.html#fig1.3.10.2.8","level":"1.3.10.2","list_caption":"Figure: img","alt":"img","nro":79,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/5b3910574ca57.png","index":8,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.10.2.8"},{"backlink":"hardware-security/cases/router.html#fig1.3.10.2.9","level":"1.3.10.2","list_caption":"Figure: img","alt":"img","nro":80,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/5b391068d0fae.png","index":9,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.10.2.9"},{"backlink":"hardware-security/cases/router.html#fig1.3.10.2.10","level":"1.3.10.2","list_caption":"Figure: img","alt":"img","nro":81,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/5b390e6acf933.png","index":10,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.10.2.10"},{"backlink":"hardware-security/cases/router.html#fig1.3.10.2.11","level":"1.3.10.2","list_caption":"Figure: img","alt":"img","nro":82,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/5b390e7d89d76.png","index":11,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.10.2.11"},{"backlink":"hardware-security/cases/router.html#fig1.3.10.2.12","level":"1.3.10.2","list_caption":"Figure: img","alt":"img","nro":83,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/5b3910db68c51.png","index":12,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.10.2.12"},{"backlink":"hardware-security/cases/router.html#fig1.3.10.2.13","level":"1.3.10.2","list_caption":"Figure: img","alt":"img","nro":84,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/5b390e87c11a9.png","index":13,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.10.2.13"},{"backlink":"hardware-security/cases/router.html#fig1.3.10.2.14","level":"1.3.10.2","list_caption":"Figure: img","alt":"img","nro":85,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/15137880896364.jpg","index":14,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.3.10.2.14"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.1","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":86,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/640760-20160612132408699-1154851627.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.1"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.2","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":87,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/640760-20160612132751449-458187935.gif","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.2"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.3","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":88,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/640760-20160612132837433-1650370851.png","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.3"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.4","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":89,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/640760-20160612132851199-1020984862.png","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.4"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.5","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":90,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/640760-20160612132955824-30116257.png","index":5,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.5"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.6","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":91,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/640760-20160612133106402-2011845399.png","index":6,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.6"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.7","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":92,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/640760-20160612133159183-1110036838.png","index":7,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.7"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.8","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":93,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/640760-20160612133216621-1050231414.png","index":8,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.8"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.9","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":94,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/640760-20160612133241918-997698360.png","index":9,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.9"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.10","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":95,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/640760-20160612133307808-875271866.png","index":10,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.10"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.11","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":96,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201021151624454.png","index":11,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.11"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.12","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":97,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201021151956105.png","index":12,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.12"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.13","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":98,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201021153531929.png","index":13,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.13"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.14","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":99,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201021153847204.png","index":14,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.14"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.15","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":100,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201021154238969.png","index":15,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.15"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.16","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":101,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201021154336154.png","index":16,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.16"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.17","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":102,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/640.webp","index":17,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.17"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.18","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":103,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201030140346860.png","index":18,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.18"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.19","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":104,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201030140627147.png","index":19,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.19"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.20","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":105,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201030133816824.png","index":20,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.20"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.21","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":106,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201030134225353.png","index":21,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.21"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.22","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":107,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201030134109771.png","index":22,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.22"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.23","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":108,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201030134133320.png","index":23,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.23"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.24","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":109,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201030134304295.png","index":24,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.24"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.25","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":110,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201030141058132.png","index":25,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.25"},{"backlink":"radio-security/bluetooth/ble.html#fig1.4.3.3.26","level":"1.4.3.3","list_caption":"Figure: img","alt":"img","nro":111,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20201030142646314.png","index":26,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.4.3.3.26"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.1","level":"1.4.5.1","list_caption":"Figure: image-20200914163705146","alt":"image-20200914163705146","nro":112,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200914163705146.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200914163705146","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.1"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.2","level":"1.4.5.1","list_caption":"Figure: image-20200914163916011","alt":"image-20200914163916011","nro":113,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200914163916011.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200914163916011","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.2"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.3","level":"1.4.5.1","list_caption":"Figure: image-20200910155416988","alt":"image-20200910155416988","nro":114,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200910155416988.png","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200910155416988","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.3"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.4","level":"1.4.5.1","list_caption":"Figure: image-20200910155841040","alt":"image-20200910155841040","nro":115,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200910155841040.png","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200910155841040","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.4"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.5","level":"1.4.5.1","list_caption":"Figure: image-20200910172118884","alt":"image-20200910172118884","nro":116,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200910172118884.png","index":5,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200910172118884","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.5"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.6","level":"1.4.5.1","list_caption":"Figure: image-20200914160522592","alt":"image-20200914160522592","nro":117,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200914160522592.png","index":6,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200914160522592","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.6"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.7","level":"1.4.5.1","list_caption":"Figure: image-20200914160628301","alt":"image-20200914160628301","nro":118,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200914160628301.png","index":7,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200914160628301","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.7"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.8","level":"1.4.5.1","list_caption":"Figure: image-20200916144646758","alt":"image-20200916144646758","nro":119,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916144646758.png","index":8,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200916144646758","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.8"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.9","level":"1.4.5.1","list_caption":"Figure: image-20200916152417724","alt":"image-20200916152417724","nro":120,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916152417724.png","index":9,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200916152417724","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.9"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.10","level":"1.4.5.1","list_caption":"Figure: image-20200916152448998","alt":"image-20200916152448998","nro":121,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916152448998.png","index":10,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200916152448998","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.10"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.11","level":"1.4.5.1","list_caption":"Figure: image-20200916152529356","alt":"image-20200916152529356","nro":122,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916152529356.png","index":11,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200916152529356","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.11"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.12","level":"1.4.5.1","list_caption":"Figure: image-20200916152557309","alt":"image-20200916152557309","nro":123,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916152557309.png","index":12,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200916152557309","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.12"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.13","level":"1.4.5.1","list_caption":"Figure: image-20200916153335471","alt":"image-20200916153335471","nro":124,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916153335471.png","index":13,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200916153335471","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.13"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.14","level":"1.4.5.1","list_caption":"Figure: image-20200915172212602","alt":"image-20200915172212602","nro":125,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200915172212602.png","index":14,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200915172212602","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.14"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.15","level":"1.4.5.1","list_caption":"Figure: image-20200916153901578","alt":"image-20200916153901578","nro":126,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916153901578.png","index":15,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200916153901578","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.15"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.16","level":"1.4.5.1","list_caption":"Figure: image-20200916153932370","alt":"image-20200916153932370","nro":127,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916153933132.png","index":16,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200916153932370","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.16"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.17","level":"1.4.5.1","list_caption":"Figure: image-20200916154002747","alt":"image-20200916154002747","nro":128,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916154002747.png","index":17,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200916154002747","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.17"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.18","level":"1.4.5.1","list_caption":"Figure: image-20200916162639232","alt":"image-20200916162639232","nro":129,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916162639232.png","index":18,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200916162639232","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.18"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.19","level":"1.4.5.1","list_caption":"Figure: image-20200916160723616","alt":"image-20200916160723616","nro":130,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200916160723616.png","index":19,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200916160723616","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.19"},{"backlink":"radio-security/rf-remote-control/replay.html#fig1.4.5.1.20","level":"1.4.5.1","list_caption":"Figure: image-20200915173032091","alt":"image-20200915173032091","nro":131,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200915173032091.png","index":20,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200915173032091","attributes":{"width":"600"},"skip":false,"key":"1.4.5.1.20"},{"backlink":"radio-security/lora/introduction.html#fig1.4.6.1","level":"1.4.6","list_caption":"Figure: image-20210108125136170","alt":"image-20210108125136170","nro":132,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210108125136170.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210108125136170","attributes":{"width":"600"},"skip":false,"key":"1.4.6.1"},{"backlink":"radio-security/lora/introduction.html#fig1.4.6.1.1","level":"1.4.6.1","list_caption":"Figure: image-20210108125136170","alt":"image-20210108125136170","nro":133,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210108125136170.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210108125136170","attributes":{"width":"600"},"skip":false,"key":"1.4.6.1.1"},{"backlink":"radio-security/lora/example.html#fig1.4.6.2.1","level":"1.4.6.2","list_caption":"Figure: image-20210108153314749","alt":"image-20210108153314749","nro":134,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210108153314749.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210108153314749","attributes":{"width":"600"},"skip":false,"key":"1.4.6.2.1"},{"backlink":"radio-security/lora/example.html#fig1.4.6.2.2","level":"1.4.6.2","list_caption":"Figure: image-20210113113901417","alt":"image-20210113113901417","nro":135,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210113113901417.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210113113901417","attributes":{"width":"600"},"skip":false,"key":"1.4.6.2.2"},{"backlink":"radio-security/lora/example.html#fig1.4.6.2.3","level":"1.4.6.2","list_caption":"Figure: image-20210113113817259","alt":"image-20210113113817259","nro":136,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210113113817259.png","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210113113817259","attributes":{"width":"600"},"skip":false,"key":"1.4.6.2.3"},{"backlink":"radio-security/lora/example.html#fig1.4.6.2.4","level":"1.4.6.2","list_caption":"Figure: image-20210113115151002","alt":"image-20210113115151002","nro":137,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210113115151002.png","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210113115151002","attributes":{"width":"600"},"skip":false,"key":"1.4.6.2.4"},{"backlink":"radio-security/zigbee/introduction.html#fig1.4.7.1","level":"1.4.7","list_caption":"Figure: image-20210113151040208","alt":"image-20210113151040208","nro":138,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210113151040208.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210113151040208","attributes":{"width":"600"},"skip":false,"key":"1.4.7.1"},{"backlink":"radio-security/zigbee/introduction.html#fig1.4.7.1.1","level":"1.4.7.1","list_caption":"Figure: image-20210113151040208","alt":"image-20210113151040208","nro":139,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210113151040208.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210113151040208","attributes":{"width":"600"},"skip":false,"key":"1.4.7.1.1"},{"backlink":"radio-security/zigbee/killbee.html#fig1.4.7.2.1","level":"1.4.7.2","list_caption":"Figure: 终端设备（灯）","alt":"终端设备（灯）","nro":140,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210203125506748.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"终端设备（灯）","attributes":{"width":"600"},"skip":false,"key":"1.4.7.2.1"},{"backlink":"radio-security/zigbee/killbee.html#fig1.4.7.2.2","level":"1.4.7.2","list_caption":"Figure: image-20210202161513999","alt":"image-20210202161513999","nro":141,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210202161513999.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210202161513999","attributes":{"width":"600"},"skip":false,"key":"1.4.7.2.2"},{"backlink":"radio-security/zigbee/killbee.html#fig1.4.7.2.3","level":"1.4.7.2","list_caption":"Figure: image-20210202210009270","alt":"image-20210202210009270","nro":142,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210202210009270.png","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210202210009270","attributes":{"width":"600"},"skip":false,"key":"1.4.7.2.3"},{"backlink":"radio-security/zigbee/killbee.html#fig1.4.7.2.4","level":"1.4.7.2","list_caption":"Figure: image-20210202212931882","alt":"image-20210202212931882","nro":143,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210202212931882.png","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210202212931882","attributes":{"width":"600"},"skip":false,"key":"1.4.7.2.4"},{"backlink":"lock-security/index.html#fig1.6.1","level":"1.6","list_caption":"Figure: werwet","alt":"werwet","nro":144,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/werwet.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"werwet","attributes":{"width":"600"},"skip":false,"key":"1.6.1"},{"backlink":"lock-security/index.html#fig1.6.2","level":"1.6","list_caption":"Figure: image19","alt":"image19","nro":145,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image19.jpg","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image19","attributes":{"width":"600"},"skip":false,"key":"1.6.2"},{"backlink":"lock-security/lock/index.html#fig1.6.1.1","level":"1.6.1","list_caption":"Figure: image17","alt":"image17","nro":146,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image17.jpg","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image17","attributes":{"width":"600"},"skip":false,"key":"1.6.1.1"},{"backlink":"lock-security/lock/index.html#fig1.6.1.2","level":"1.6.1","list_caption":"Figure: image18","alt":"image18","nro":147,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image18.jpg","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image18","attributes":{"width":"600"},"skip":false,"key":"1.6.1.2"},{"backlink":"lock-security/lock/index.html#fig1.6.1.3","level":"1.6.1","list_caption":"Figure: image20","alt":"image20","nro":148,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image20.jpg","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image20","attributes":{"width":"600"},"skip":false,"key":"1.6.1.3"},{"backlink":"lock-security/lock/index.html#fig1.6.1.4","level":"1.6.1","list_caption":"Figure: image21","alt":"image21","nro":149,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image21.jpg","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image21","attributes":{"width":"600"},"skip":false,"key":"1.6.1.4"},{"backlink":"lock-security/lock/introduction.html#fig1.6.1.1.1","level":"1.6.1.1","list_caption":"Figure: image23","alt":"image23","nro":150,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image23.jpg","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image23","attributes":{"width":"600"},"skip":false,"key":"1.6.1.1.1"},{"backlink":"lock-security/lock/introduction.html#fig1.6.1.1.2","level":"1.6.1.1","list_caption":"Figure: image22","alt":"image22","nro":151,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image22.jpg","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image22","attributes":{"width":"600"},"skip":false,"key":"1.6.1.1.2"},{"backlink":"lock-security/lock/introduction.html#fig1.6.1.1.3","level":"1.6.1.1","list_caption":"Figure: 45555","alt":"45555","nro":152,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/45555.png","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"45555","attributes":{"width":"600"},"skip":false,"key":"1.6.1.1.3"},{"backlink":"lock-security/lock/introduction.html#fig1.6.1.1.4","level":"1.6.1.1","list_caption":"Figure: 769856456","alt":"769856456","nro":153,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/769856456.jpg","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"769856456","attributes":{"width":"600"},"skip":false,"key":"1.6.1.1.4"},{"backlink":"lock-security/lock/introduction.html#fig1.6.1.1.5","level":"1.6.1.1","list_caption":"Figure: 7686789768987","alt":"7686789768987","nro":154,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/7686789768987.jpg","index":5,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"7686789768987","attributes":{"width":"600"},"skip":false,"key":"1.6.1.1.5"},{"backlink":"lock-security/lock/introduction.html#fig1.6.1.1.6","level":"1.6.1.1","list_caption":"Figure: 3245324534","alt":"3245324534","nro":155,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/3245324534.jpg","index":6,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"3245324534","attributes":{"width":"600"},"skip":false,"key":"1.6.1.1.6"},{"backlink":"lock-security/lock/introduction.html#fig1.6.1.1.7","level":"1.6.1.1","list_caption":"Figure: 34253215345","alt":"34253215345","nro":156,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/34253215345.jpg","index":7,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"34253215345","attributes":{"width":"600"},"skip":false,"key":"1.6.1.1.7"},{"backlink":"lock-security/lock/introduction.html#fig1.6.1.1.8","level":"1.6.1.1","list_caption":"Figure: 547686785687","alt":"547686785687","nro":157,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/547686785687.jpg","index":8,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"547686785687","attributes":{"width":"600"},"skip":false,"key":"1.6.1.1.8"},{"backlink":"lock-security/lock/future.html#fig1.6.1.2.1","level":"1.6.1.2","list_caption":"Figure: 11","alt":"11","nro":158,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/11.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"11","attributes":{"width":"600"},"skip":false,"key":"1.6.1.2.1"},{"backlink":"lock-security/lock/future.html#fig1.6.1.2.2","level":"1.6.1.2","list_caption":"Figure: img","alt":"img","nro":159,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/2/5.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.6.1.2.2"},{"backlink":"lock-security/lock/attack-and-defense.html#fig1.6.1.3.1","level":"1.6.1.3","list_caption":"Figure: img","alt":"img","nro":160,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/2/7.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.6.1.3.1"},{"backlink":"lock-security/lock/attack-and-defense.html#fig1.6.1.3.2","level":"1.6.1.3","list_caption":"Figure: img","alt":"img","nro":161,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/2/8.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.6.1.3.2"},{"backlink":"lock-security/lock/attack-and-defense.html#fig1.6.1.3.3","level":"1.6.1.3","list_caption":"Figure: img","alt":"img","nro":162,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/2/9.png","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.6.1.3.3"},{"backlink":"lock-security/lock/attack-and-defense.html#fig1.6.1.3.4","level":"1.6.1.3","list_caption":"Figure: img","alt":"img","nro":163,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/2/10.png","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.6.1.3.4"},{"backlink":"lock-security/lock/attack-and-defense.html#fig1.6.1.3.5","level":"1.6.1.3","list_caption":"Figure: img","alt":"img","nro":164,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/2/11.png","index":5,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.6.1.3.5"},{"backlink":"lock-security/lock/attack-and-defense.html#fig1.6.1.3.6","level":"1.6.1.3","list_caption":"Figure: img","alt":"img","nro":165,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/2/12.png","index":6,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.6.1.3.6"},{"backlink":"lock-security/lock/attack-and-defense.html#fig1.6.1.3.7","level":"1.6.1.3","list_caption":"Figure: img","alt":"img","nro":166,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/2/13.png","index":7,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.6.1.3.7"},{"backlink":"lock-security/lock/attack-and-defense.html#fig1.6.1.3.8","level":"1.6.1.3","list_caption":"Figure: img","alt":"img","nro":167,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/2/14.png","index":8,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.6.1.3.8"},{"backlink":"lock-security/mechanical-lock/crack.html#fig1.6.2.1.1","level":"1.6.2.1","list_caption":"Figure: image25","alt":"image25","nro":168,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image25.gif","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image25","attributes":{"width":"600"},"skip":false,"key":"1.6.2.1.1"},{"backlink":"lock-security/mechanical-lock/crack.html#fig1.6.2.1.2","level":"1.6.2.1","list_caption":"Figure: image37","alt":"image37","nro":169,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image37.jpg","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image37","attributes":{"width":"600"},"skip":false,"key":"1.6.2.1.2"},{"backlink":"lock-security/mechanical-lock/crack.html#fig1.6.2.1.3","level":"1.6.2.1","list_caption":"Figure: image44","alt":"image44","nro":170,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image44.jpg","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image44","attributes":{"width":"600"},"skip":false,"key":"1.6.2.1.3"},{"backlink":"lock-security/mechanical-lock/crack.html#fig1.6.2.1.4","level":"1.6.2.1","list_caption":"Figure: image28","alt":"image28","nro":171,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image28.jpg","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image28","attributes":{"width":"600"},"skip":false,"key":"1.6.2.1.4"},{"backlink":"lock-security/mechanical-lock/crack.html#fig1.6.2.1.5","level":"1.6.2.1","list_caption":"Figure: image36","alt":"image36","nro":172,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image36.jpg","index":5,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image36","attributes":{"width":"600"},"skip":false,"key":"1.6.2.1.5"},{"backlink":"lock-security/mechanical-lock/crack.html#fig1.6.2.1.6","level":"1.6.2.1","list_caption":"Figure: image40","alt":"image40","nro":173,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image40.png","index":6,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image40","attributes":{"width":"600"},"skip":false,"key":"1.6.2.1.6"},{"backlink":"lock-security/mechanical-lock/crack.html#fig1.6.2.1.7","level":"1.6.2.1","list_caption":"Figure: 1201171605_clip","alt":"1201171605_clip","nro":174,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/1201171605_clip.gif","index":7,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"1201171605_clip","attributes":{"width":"600"},"skip":false,"key":"1.6.2.1.7"},{"backlink":"lock-security/smart-lock/index.html#fig1.6.3.1","level":"1.6.3","list_caption":"Figure: img","alt":"img","nro":175,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/2/4.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1"},{"backlink":"lock-security/smart-lock/index.html#fig1.6.3.2","level":"1.6.3","list_caption":"Figure: img","alt":"img","nro":176,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/2/18.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.6.3.2"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.1","level":"1.6.3.1","list_caption":"Figure: image23","alt":"image23","nro":177,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image24.jpg","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image23","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.1"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.2","level":"1.6.3.1","list_caption":"Figure: 图片1","alt":"图片1","nro":178,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/sdgdsry87908.jpg","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"图片1","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.2"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.3","level":"1.6.3.1","list_caption":"Figure: 媒体1_clip","alt":"媒体1_clip","nro":179,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/1_clip.gif","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"媒体1_clip","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.3"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.4","level":"1.6.3.1","list_caption":"Figure: image23","alt":"image23","nro":180,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image23.png","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image23","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.4"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.5","level":"1.6.3.1","list_caption":"Figure: TB2XPjucLiSBuNkSnhJXXbDcpXa_!!25616172","alt":"TB2XPjucLiSBuNkSnhJXXbDcpXa_!!25616172","nro":181,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/TB2XPjucLiSBuNkSnhJXXbDcpXa_!!25616172.jpg","index":5,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"TB2XPjucLiSBuNkSnhJXXbDcpXa_!!25616172","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.5"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.6","level":"1.6.3.1","list_caption":"Figure: 暴力开锁_clip","alt":"暴力开锁_clip","nro":182,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/clip.gif","index":6,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"暴力开锁_clip","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.6"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.7","level":"1.6.3.1","list_caption":"Figure: image25","alt":"image25","nro":183,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image25.jpg","index":7,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image25","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.7"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.8","level":"1.6.3.1","list_caption":"Figure: 5b352394427b3","alt":"5b352394427b3","nro":184,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/5b352394427b3.jpg","index":8,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"5b352394427b3","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.8"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.9","level":"1.6.3.1","list_caption":"Figure: IMG_3505","alt":"IMG_3505","nro":185,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/IMG_3505.jpg","index":9,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"IMG_3505","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.9"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.10","level":"1.6.3.1","list_caption":"Figure: IMG_3506","alt":"IMG_3506","nro":186,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/IMG_3506.jpg","index":10,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"IMG_3506","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.10"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.11","level":"1.6.3.1","list_caption":"Figure: IMG_3507","alt":"IMG_3507","nro":187,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/IMG_3507.jpg","index":11,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"IMG_3507","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.11"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.12","level":"1.6.3.1","list_caption":"Figure: 1538279364702","alt":"1538279364702","nro":188,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/1538279364702.png","index":12,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"1538279364702","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.12"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.13","level":"1.6.3.1","list_caption":"Figure: image46","alt":"image46","nro":189,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image46.jpg","index":13,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image46","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.13"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.14","level":"1.6.3.1","list_caption":"Figure: 媒体3[00_00_02][20180930-120632-0]","alt":"媒体3[00_00_02][20180930-120632-0]","nro":190,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/[00_00_02][20180930-120632-0].jpg","index":14,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"媒体3[00_00_02][20180930-120632-0]","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.14"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.15","level":"1.6.3.1","list_caption":"Figure: 图片2","alt":"图片2","nro":191,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/20180226135.jpg","index":15,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"图片2","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.15"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.16","level":"1.6.3.1","list_caption":"Figure: image80","alt":"image80","nro":192,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image80.jpg","index":16,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image80","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.16"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.17","level":"1.6.3.1","list_caption":"Figure: image84","alt":"image84","nro":193,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image84.png","index":17,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image84","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.17"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.18","level":"1.6.3.1","list_caption":"Figure: image83","alt":"image83","nro":194,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image83.png","index":18,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image83","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.18"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.19","level":"1.6.3.1","list_caption":"Figure: 序列 01_clip","alt":"序列 01_clip","nro":195,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/01_clip.gif","index":19,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"序列 01_clip","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.19"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.20","level":"1.6.3.1","list_caption":"Figure: 5b9fe0fd21e76","alt":"5b9fe0fd21e76","nro":196,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/5b9fe0fd21e76.jpg","index":20,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"5b9fe0fd21e76","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.20"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.21","level":"1.6.3.1","list_caption":"Figure: vlcsnap-2018-09-30-12h03m29s219","alt":"vlcsnap-2018-09-30-12h03m29s219","nro":197,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/vlcsnap-2018-09-30-12h03m29s219.png","index":21,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"vlcsnap-2018-09-30-12h03m29s219","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.21"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.22","level":"1.6.3.1","list_caption":"Figure: 媒体2_clip","alt":"媒体2_clip","nro":198,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/2_clip.gif","index":22,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"媒体2_clip","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.22"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.23","level":"1.6.3.1","list_caption":"Figure: image71","alt":"image71","nro":199,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image71.jpg","index":23,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image71","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.23"},{"backlink":"lock-security/smart-lock/crack.html#fig1.6.3.1.24","level":"1.6.3.1","list_caption":"Figure: image72","alt":"image72","nro":200,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/image72.jpg","index":24,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image72","attributes":{"width":"600"},"skip":false,"key":"1.6.3.1.24"},{"backlink":"lock-security/security-defense/index.html#fig1.6.9.1","level":"1.6.9","list_caption":"Figure: 333","alt":"333","nro":201,"url":"https://img-1253984064.cos.ap-guangzhou.myqcloud.com/suo3vcf/333.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"333","attributes":{"width":"600"},"skip":false,"key":"1.6.9.1"},{"backlink":"lock-security/security-defense/index.html#fig1.6.9.2","level":"1.6.9","list_caption":"Figure: img","alt":"img","nro":202,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/2/16.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.6.9.2"},{"backlink":"lock-security/security-defense/index.html#fig1.6.9.3","level":"1.6.9","list_caption":"Figure: img","alt":"img","nro":203,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/2020/4/2/17.png","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"img","attributes":{"width":"600"},"skip":false,"key":"1.6.9.3"},{"backlink":"iot-ctf/lock-ctf/index.html#fig1.8.1.1","level":"1.8.1","list_caption":"Figure: image-20210204213704391","alt":"image-20210204213704391","nro":204,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210204213704391.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210204213704391","attributes":{"width":"600"},"skip":false,"key":"1.8.1.1"},{"backlink":"iot-ctf/lock-ctf/index.html#fig1.8.1.2","level":"1.8.1","list_caption":"Figure: image-20210204213720518","alt":"image-20210204213720518","nro":205,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210204213720518.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210204213720518","attributes":{"width":"600"},"skip":false,"key":"1.8.1.2"},{"backlink":"iot-ctf/lock-ctf/new-orleans.html#fig1.8.1.1.1","level":"1.8.1.1","list_caption":"Figure: 20210204195632","alt":"20210204195632","nro":206,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/20210204195632.jpg","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"20210204195632","attributes":{"width":"600"},"skip":false,"key":"1.8.1.1.1"},{"backlink":"iot-ctf/lock-ctf/new-orleans.html#fig1.8.1.1.2","level":"1.8.1.1","list_caption":"Figure: 20210204195538","alt":"20210204195538","nro":207,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/20210204195538.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"20210204195538","attributes":{"width":"600"},"skip":false,"key":"1.8.1.1.2"},{"backlink":"iot-ctf/lock-ctf/new-orleans.html#fig1.8.1.1.3","level":"1.8.1.1","list_caption":"Figure: 20210204195833","alt":"20210204195833","nro":208,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/20210204195833.png","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"20210204195833","attributes":{"width":"600"},"skip":false,"key":"1.8.1.1.3"},{"backlink":"iot-ctf/lock-ctf/sydney.html#fig1.8.1.2.1","level":"1.8.1.2","list_caption":"Figure: 20210204200318","alt":"20210204200318","nro":209,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/20210204200318.jpg","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"20210204200318","attributes":{"width":"600"},"skip":false,"key":"1.8.1.2.1"},{"backlink":"iot-ctf/lock-ctf/sydney.html#fig1.8.1.2.2","level":"1.8.1.2","list_caption":"Figure: 20210204200337","alt":"20210204200337","nro":210,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/20210204200337.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"20210204200337","attributes":{"width":"600"},"skip":false,"key":"1.8.1.2.2"},{"backlink":"iot-ctf/lock-ctf/sydney.html#fig1.8.1.2.3","level":"1.8.1.2","list_caption":"Figure: 20210204200416","alt":"20210204200416","nro":211,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/微信图片_20210204200416.jpg","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"20210204200416","attributes":{"width":"600"},"skip":false,"key":"1.8.1.2.3"},{"backlink":"iot-ctf/lock-ctf/sydney.html#fig1.8.1.2.4","level":"1.8.1.2","list_caption":"Figure: 20210204200425","alt":"20210204200425","nro":212,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/微信图片_20210204200425.png","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"20210204200425","attributes":{"width":"600"},"skip":false,"key":"1.8.1.2.4"},{"backlink":"iot-ctf/lock-ctf/hanoi.html#fig1.8.1.3.1","level":"1.8.1.3","list_caption":"Figure: 20210204201256","alt":"20210204201256","nro":213,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/20210204201451.jpg","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"20210204201256","attributes":{"width":"600"},"skip":false,"key":"1.8.1.3.1"},{"backlink":"iot-ctf/lock-ctf/hanoi.html#fig1.8.1.3.2","level":"1.8.1.3","list_caption":"Figure: 20210204201340","alt":"20210204201340","nro":214,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/20210204201340.jpg","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"20210204201340","attributes":{"width":"600"},"skip":false,"key":"1.8.1.3.2"},{"backlink":"iot-ctf/lock-ctf/hanoi.html#fig1.8.1.3.3","level":"1.8.1.3","list_caption":"Figure: image-20210204201857126","alt":"image-20210204201857126","nro":215,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210204201857126.png","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210204201857126","attributes":{"width":"600"},"skip":false,"key":"1.8.1.3.3"},{"backlink":"iot-ctf/lock-ctf/hanoi.html#fig1.8.1.3.4","level":"1.8.1.3","list_caption":"Figure: image-20210204201911618","alt":"image-20210204201911618","nro":216,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210204201911618.png","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210204201911618","attributes":{"width":"600"},"skip":false,"key":"1.8.1.3.4"},{"backlink":"iot-ctf/lock-ctf/hanoi.html#fig1.8.1.3.5","level":"1.8.1.3","list_caption":"Figure: image-20210204201945234","alt":"image-20210204201945234","nro":217,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210204201945234.png","index":5,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210204201945234","attributes":{"width":"600"},"skip":false,"key":"1.8.1.3.5"},{"backlink":"iot-ctf/lock-ctf/hanoi.html#fig1.8.1.3.6","level":"1.8.1.3","list_caption":"Figure: image-20210204201956417","alt":"image-20210204201956417","nro":218,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210204201956417.png","index":6,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210204201956417","attributes":{"width":"600"},"skip":false,"key":"1.8.1.3.6"},{"backlink":"iot-ctf/lock-ctf/hanoi.html#fig1.8.1.3.7","level":"1.8.1.3","list_caption":"Figure: image-20210204202003384","alt":"image-20210204202003384","nro":219,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210204202003384.png","index":7,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210204202003384","attributes":{"width":"600"},"skip":false,"key":"1.8.1.3.7"},{"backlink":"iot-ctf/lock-ctf/cusco.html#fig1.8.1.4.1","level":"1.8.1.4","list_caption":"Figure: 图片","alt":"图片","nro":220,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/640","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"图片","attributes":{"width":"600"},"skip":false,"key":"1.8.1.4.1"},{"backlink":"iot-ctf/lock-ctf/cusco.html#fig1.8.1.4.2","level":"1.8.1.4","list_caption":"Figure: 123324234534","alt":"123324234534","nro":221,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/1233242345345.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"123324234534","attributes":{"width":"600"},"skip":false,"key":"1.8.1.4.2"},{"backlink":"iot-ctf/lock-ctf/cusco.html#fig1.8.1.4.3","level":"1.8.1.4","list_caption":"Figure: 123123123123","alt":"123123123123","nro":222,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/123123123123.png","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"123123123123","attributes":{"width":"600"},"skip":false,"key":"1.8.1.4.3"},{"backlink":"iot-ctf/lock-ctf/cusco.html#fig1.8.1.4.4","level":"1.8.1.4","list_caption":"Figure: 123123123","alt":"123123123","nro":223,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/123123123.png","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"123123123","attributes":{"width":"600"},"skip":false,"key":"1.8.1.4.4"},{"backlink":"iot-ctf/lock-ctf/cusco.html#fig1.8.1.4.5","level":"1.8.1.4","list_caption":"Figure: 1231233123","alt":"1231233123","nro":224,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/1231233123.png","index":5,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"1231233123","attributes":{"width":"600"},"skip":false,"key":"1.8.1.4.5"},{"backlink":"iot-ctf/lock-ctf/cusco.html#fig1.8.1.4.6","level":"1.8.1.4","list_caption":"Figure: 123123123","alt":"123123123","nro":225,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/123123123.webp","index":6,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"123123123","attributes":{"width":"600"},"skip":false,"key":"1.8.1.4.6"},{"backlink":"iot-ctf/lock-ctf/cusco.html#fig1.8.1.4.7","level":"1.8.1.4","list_caption":"Figure: image-20210204205140657","alt":"image-20210204205140657","nro":226,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210204205140657.png","index":7,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210204205140657","attributes":{"width":"600"},"skip":false,"key":"1.8.1.4.7"},{"backlink":"iot-ctf/lock-ctf/cusco.html#fig1.8.1.4.8","level":"1.8.1.4","list_caption":"Figure: image-20210204205146444","alt":"image-20210204205146444","nro":227,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20210204205146444.png","index":8,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20210204205146444","attributes":{"width":"600"},"skip":false,"key":"1.8.1.4.8"},{"backlink":"iot-ctf/lock-ctf/reykjavik.html#fig1.8.1.5.1","level":"1.8.1.5","list_caption":"Figure: image-20200524225423170","alt":"image-20200524225423170","nro":228,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200524225423170.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200524225423170","attributes":{"width":"600"},"skip":false,"key":"1.8.1.5.1"},{"backlink":"iot-ctf/lock-ctf/reykjavik.html#fig1.8.1.5.2","level":"1.8.1.5","list_caption":"Figure: image-20200621212058278","alt":"image-20200621212058278","nro":229,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200621212058278.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200621212058278","attributes":{"width":"600"},"skip":false,"key":"1.8.1.5.2"},{"backlink":"iot-ctf/lock-ctf/reykjavik.html#fig1.8.1.5.3","level":"1.8.1.5","list_caption":"Figure: image-20200621213640387","alt":"image-20200621213640387","nro":230,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200621213640387.png","index":3,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200621213640387","attributes":{"width":"600"},"skip":false,"key":"1.8.1.5.3"},{"backlink":"iot-ctf/lock-ctf/reykjavik.html#fig1.8.1.5.4","level":"1.8.1.5","list_caption":"Figure: image-20200622111526380","alt":"image-20200622111526380","nro":231,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200622111526380.png","index":4,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200622111526380","attributes":{"width":"600"},"skip":false,"key":"1.8.1.5.4"},{"backlink":"iot-ctf/lock-ctf/reykjavik.html#fig1.8.1.5.5","level":"1.8.1.5","list_caption":"Figure: image-20200622113326591","alt":"image-20200622113326591","nro":232,"url":"https://yaseng-1251294608.cos.ap-guangzhou.myqcloud.com/image/image-20200622113326591.png","index":5,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_","label":"image-20200622113326591","attributes":{"width":"600"},"skip":false,"key":"1.8.1.5.5"}]},"title":"物联网安全百科","language":"zh-hans","links":{"sidebar":{"物联网安全百科":"https://iot-security.wiki"}},"gitbook":"*","description":"物联网安全开源图书","theme-default":{"showLevel":true}},"file":{"path":"radio-security/rf-remote-control/replay.md","mtime":"2021-01-04T02:37:33.343Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-05T05:08:56.143Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-baidu-v3/baidu-tongji.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

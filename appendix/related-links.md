@@ -3,7 +3,7 @@
 
 ## 学术
 * ches  https://ches.iacr.org
-* 啊
+ 
 
 ## 会议
 * DEFCON
